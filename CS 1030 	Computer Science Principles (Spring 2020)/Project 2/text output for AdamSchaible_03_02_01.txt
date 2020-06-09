@@ -1,0 +1,42 @@
+﻿"/home/ryooki/PycharmProjects/Python Project 3/venv/bin/python" "/home/ryooki/PycharmProjects/Python Project 3/AdamSchaible_03_02_01.py"
+If you would like to quit enter 'yes' here: NO
+Enter the next grade: 
+You entered the invalid grade of 
+Valid grades are : A+, A, A-, B+, B, B-, C+, C, C-, D+, D, F
+No GPA calculated
+Enter the next grade: W
+You entered the invalid grade of W
+Valid grades are : A+, A, A-, B+, B, B-, C+, C, C-, D+, D, F
+Enter the next grade: A+
+Enter the next grade: B-
+Enter the next grade: C
+Enter the next grade: 
+You entered the invalid grade of 
+Valid grades are : A+, A, A-, B+, B, B-, C+, C, C-, D+, D, F
+The grade A+ has a GPA of 4.2
+The grade B- has a GPA of 3.0
+The grade C has a GPA of 2.2
+The overall average of all GPA's that were processed is : 3.13
+If you would like to quit enter 'yes' here: NO
+Enter the next grade: B
+Enter the next grade: B
+Enter the next grade: B
+Enter the next grade: C
+Enter the next grade: D+
+Enter the next grade: WA
+You entered the invalid grade of WA
+Valid grades are : A+, A, A-, B+, B, B-, C+, C, C-, D+, D, F
+Enter the next grade: A
+Enter the next grade: 
+You entered the invalid grade of 
+Valid grades are : A+, A, A-, B+, B, B-, C+, C, C-, D+, D, F
+The grade B has a GPA of 3.2
+The grade B has a GPA of 3.2
+The grade B has a GPA of 3.2
+The grade C has a GPA of 2.2
+The grade D+ has a GPA of 1.8
+The grade A has a GPA of 4.0
+The overall average of all GPA's that were processed is : 2.93
+If you would like to quit enter 'yes' here: yes
+
+Process finished with exit code 0

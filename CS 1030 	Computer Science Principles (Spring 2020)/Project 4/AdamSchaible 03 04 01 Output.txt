@@ -1,0 +1,18 @@
+# Name Adam Schaible
+# 4/10/20
+# AdamSchaible 03 04 01 Output.txt
+
+"/home/ryooki/PycharmProjects/project 4/venv/bin/python" "/home/ryooki/PycharmProjects/project 4/AdamSchaible 03 04 01.py"
+Word              Points
+HIPPO               12
+PLATYPUS            15
+INSULATION          0
+SCRABBLE            14
+CSCI 1350           8
+                    0
+ARTIFICIAL          0
+INTELLIGENCE        0
+MACHINE             14
+LEARNING            9
+
+Total points        72

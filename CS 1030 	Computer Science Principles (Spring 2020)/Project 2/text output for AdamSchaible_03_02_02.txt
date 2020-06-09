@@ -1,0 +1,42 @@
+﻿"/home/ryooki/PycharmProjects/Python Project 3/venv/bin/python" "/home/ryooki/PycharmProjects/Python Project 3/AdamSchaible_03_02_02.py"
+How many simulations do you want to run? : 1
+The flips in current simulation : T T T 
+The average number of flips is : 3
+The minimum number of flips is : 3
+The maximum number of flips is : 3
+How many simulations do you want to run? : 5
+The flips in current simulation : H T H T H T T T 
+The flips in current simulation : H H H 
+The flips in current simulation : T T T 
+The flips in current simulation : H H T T H H H 
+The flips in current simulation : T H T T H H T T H H H 
+The average number of flips is : 6.4
+The minimum number of flips is : 3
+The maximum number of flips is : 11
+How many simulations do you want to run? : 20
+The flips in current simulation : T T H H H 
+The flips in current simulation : T H T H H T H T T T 
+The flips in current simulation : T H T H H H 
+The flips in current simulation : T T H T T H H H 
+The flips in current simulation : H H T H T H H H 
+The flips in current simulation : H T T T 
+The flips in current simulation : H H T H H H 
+The flips in current simulation : H T T H H H 
+The flips in current simulation : T T T 
+The flips in current simulation : H T T H T T T 
+The flips in current simulation : T T H H T T H T T H T H T T T 
+The flips in current simulation : H H H 
+The flips in current simulation : T T H H T H H T T T 
+The flips in current simulation : H T H T H H T T H T T H T T H H H 
+The flips in current simulation : H H H 
+The flips in current simulation : T T T 
+The flips in current simulation : T H T H H H 
+The flips in current simulation : H H T H H H 
+The flips in current simulation : H H H 
+The flips in current simulation : T H H T T T 
+The average number of flips is : 6.75
+The minimum number of flips is : 3
+The maximum number of flips is : 17
+How many simulations do you want to run? : -90
+
+Process finished with exit code 0

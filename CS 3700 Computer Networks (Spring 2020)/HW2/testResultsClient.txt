@@ -1,0 +1,34 @@
+Enter the DNS or IP of the server: 
+Item ID	Item Description
+00001	New Inspiron 15
+00002	New Inspiron 17
+00003	New Inspiron 15R
+00004	New Inspiron 15z Ultrabook
+00005	XPS 14 Ultrabook
+00006	New XPS 12 UltrabookXPS
+
+ Input the item ID: 
+Item ID	Item Description
+00001	New Inspiron 15
+00002	New Inspiron 17
+00003	New Inspiron 15R
+00004	New Inspiron 15z Ultrabook
+00005	XPS 14 Ultrabook
+00006	New XPS 12 UltrabookXPS
+
+ Input the item ID: 
+Item ID	Item Description          	Unit Price	Inventory	RTT of Query
+00001	New Inspiron 15   		$379.99				157	23ms
+Enter yes if you wish to continue, else enter anything else to not continue: 
+Item ID	Item Description
+00001	New Inspiron 15
+00002	New Inspiron 17
+00003	New Inspiron 15R
+00004	New Inspiron 15z Ultrabook
+00005	XPS 14 Ultrabook
+00006	New XPS 12 UltrabookXPS
+
+ Input the item ID: 
+Item ID	Item Description          	Unit Price	Inventory	RTT of Query
+00002	New Inspiron 17   		$449.99				128	1ms
+Enter yes if you wish to continue, else enter anything else to not continue: 

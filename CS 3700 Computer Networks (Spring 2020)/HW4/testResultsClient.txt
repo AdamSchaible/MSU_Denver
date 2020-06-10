@@ -1,0 +1,94 @@
+Enter in the DNS name or IP of the server: 
+The 220 response from the server is: 220 cs3700a@msudenver.edu
+
+Senders email address: 
+Receivers email address: 
+Subject: 
+Enter email contents line by line, with the last line containing only a period: 
+
+Sending the following to the server: HELO cs3700a.msudenver.edu
+
+The servers response to (HELO cs3700a.msudenver.edu) is: 
+250 147.153.10.87 Hello 147.153.10.69:44592
+The amount of time to get response from last message is : 21.97826 ms
+
+Sending the following to the server: MAIL FROM: abc@msu.com
+
+The servers response to (MAIL FROM: abc@msu.com) is: 
+250 2.1.0 Sender OK
+The amount of time to get response from last message is : 1.374154 ms
+
+Sending the following to the server: RCPT TO: dec@msu.com
+
+The servers response to (RCPT TO: dec@msu.com) is: 
+250 2.1.5 Recipient OK
+The amount of time to get response from last message is : 0.964876 ms
+
+Sending the following to the server: DATA
+
+The servers response to DATA is: 
+354 Start mail input; end with <CRLF>.<CRLF>
+The amount of time to get response from last message is : 1.069643 ms
+
+Sending following mail message to the server : 
+To: dec@msu.com
+From: abc@msu.com
+Subject: nothing here
+
+
+The cat is here.
+There is a dog over here.
+.
+
+The servers response to the mail message is: 
+250 Message received and to be delivered
+The amount of time to get response from last message is : 2.483281 ms
+
+If you would like to continue enter 'yes', otherwise enter anything else for no : 
+Did not tell server to quit
+Senders email address: 
+Receivers email address: 
+Subject: 
+Enter email contents line by line, with the last line containing only a period: 
+
+Sending the following to the server: HELO cs3700a.msudenver.edu
+
+The servers response to (HELO cs3700a.msudenver.edu) is: 
+250 147.153.10.87 Hello 147.153.10.69:44592
+The amount of time to get response from last message is : 5.565091 ms
+
+Sending the following to the server: MAIL FROM: dae@c.com
+
+The servers response to (MAIL FROM: dae@c.com) is: 
+250 2.1.0 Sender OK
+The amount of time to get response from last message is : 2.164224 ms
+
+Sending the following to the server: RCPT TO: nothing@nothing.com
+
+The servers response to (RCPT TO: nothing@nothing.com) is: 
+250 2.1.5 Recipient OK
+The amount of time to get response from last message is : 1.119834 ms
+
+Sending the following to the server: DATA
+
+The servers response to DATA is: 
+354 Start mail input; end with <CRLF>.<CRLF>
+The amount of time to get response from last message is : 0.721727 ms
+
+Sending following mail message to the server : 
+To: nothing@nothing.com
+From: dae@c.com
+Subject: nothing at all
+
+
+The house is red.
+The river is blue.
+.
+
+The servers response to the mail message is: 
+250 Message received and to be delivered
+The amount of time to get response from last message is : 2.811746 ms
+
+If you would like to continue enter 'yes', otherwise enter anything else for no : 
+Sending QUIT command to server
+Server's response to Quit command is: 221 147.153.10.87 closing connection

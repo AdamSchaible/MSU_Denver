@@ -1,0 +1,4 @@
+R6	write*	F3
+R2	seek	D1
+R3	read	D1
+R3	read	D1

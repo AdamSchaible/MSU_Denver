@@ -1,0 +1,429 @@
+/usr/lib/jvm/java-1.12.0-openjdk-amd64/bin/java -javaagent:/home/ryooki/INTELLIJ/lib/idea_rt.jar=44707:/home/ryooki/INTELLIJ/bin -Dfile.encoding=UTF-8 -classpath "/home/ryooki/IdeaProjects/Algorithms Project 5 - Graphs/out/production/Algorithms Project 5 - Graphs" Graph
+
+
+Type in the currency that you want to trade in with only the first letter capitalized
+Available currencies are: [Canada, Euro, Yen, Norway, Sweden, Ruble, Pound, Dollar, Australia]
+
+ The currency that you want to trade in is : 
+Rubles
+You did not not type in a available currency
+Check your spelling and make sure that only the first letter is capitalized and there are no spaces
+
+
+
+Type in the currency that you want to trade in with only the first letter capitalized
+Available currencies are: [Canada, Euro, Yen, Norway, Sweden, Ruble, Pound, Dollar, Australia]
+
+ The currency that you want to trade in is : 
+Ruble
+If you invested a 1000 Ruble
+The Trading Strategy : (Ruble-> Canada-> Euro-> Yen-> Norway-> Sweden-> Ruble) made a profit of 4.7139893 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Yen-> Ruble) made a profit of 1.4248047 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Yen-> Ruble) made a profit of 54.285645 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Yen-> Ruble) made a profit of 25.000122 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Yen-> Ruble) made a profit of 25.000122 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Yen-> Sweden-> Ruble) made a profit of 52.785645 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Yen-> Sweden-> Ruble) made a profit of 23.541687 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Yen-> Sweden-> Ruble) made a profit of 23.541687 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Yen-> Norway-> Ruble) made a profit of 4.279419 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Yen-> Norway-> Ruble) made a profit of 57.290894 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Yen-> Norway-> Ruble) made a profit of 27.921753 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Yen-> Norway-> Ruble) made a profit of 27.921753 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Yen-> Norway-> Sweden-> Ruble) made a profit of 57.72754 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Yen-> Norway-> Sweden-> Ruble) made a profit of 28.346313 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Yen-> Norway-> Sweden-> Ruble) made a profit of 28.346313 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Euro-> Sweden-> Ruble) made a profit of 0.46899414 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Euro-> Pound-> Ruble) made a profit of 15.611267 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Euro-> Dollar-> Ruble) made a profit of 3.4523926 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Euro-> Dollar-> Ruble) made a profit of 9.259277 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Euro-> Pound-> Ruble) made a profit of 5.7871094 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Euro-> Dollar-> Ruble) made a profit of 19.117493 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Euro-> Pound-> Ruble) made a profit of 16.087708 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Euro-> Dollar-> Ruble) made a profit of 19.59552 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Euro-> Ruble) made a profit of 0.19500732 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Euro-> Yen-> Ruble) made a profit of 0.692688 Ruble
+
+The Trading Strategy : (Ruble-> Yen-> Euro-> Pound-> Ruble) made a profit of 14.908264 Ruble
+
+The Trading Strategy : (Ruble-> Yen-> Euro-> Dollar-> Ruble) made a profit of 18.412048 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Euro-> Yen-> Norway-> Ruble) made a profit of 3.545105 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Euro-> Yen-> Ruble) made a profit of 1.1620483 Ruble
+
+The Trading Strategy : (Ruble-> Euro-> Canada-> Yen-> Norway-> Sweden-> Ruble) made a profit of 4.638489 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Sweden-> Ruble) made a profit of 0.32281494 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Ruble) made a profit of 32.315308 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Sweden-> Ruble) made a profit of 32.487427 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Ruble) made a profit of 0.15618896 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Norway-> Ruble) made a profit of 32.154175 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Norway-> Sweden-> Ruble) made a profit of 32.580444 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Yen-> Sweden-> Ruble) made a profit of 0.5779419 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Yen-> Ruble) made a profit of 1.6802368 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Yen-> Ruble) made a profit of 34.222168 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Yen-> Sweden-> Ruble) made a profit of 32.75061 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Yen-> Norway-> Ruble) made a profit of 4.5355225 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Yen-> Ruble) made a profit of 2.00354 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Yen-> Norway-> Ruble) made a profit of 37.170166 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Yen-> Norway-> Sweden-> Ruble) made a profit of 37.59851 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Sweden-> Ruble) made a profit of 0.90753174 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Pound-> Ruble) made a profit of 16.205017 Ruble
+
+The Trading Strategy : (Ruble-> Pound-> Canada-> Euro-> Dollar-> Ruble) made a profit of 5.01709 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Canada-> Euro-> Dollar-> Ruble) made a profit of 10.497742 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Ruble) made a profit of 32.80786 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Pound-> Ruble) made a profit of 49.21875 Ruble
+
+The Trading Strategy : (Ruble-> Australia-> Canada-> Euro-> Pound-> Ruble) made a profit of 7.02124 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Dollar-> Ruble) made a profit of 19.713318 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Sweden-> Ruble) made a profit of 33.09082 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Ruble) made a profit of 0.31048584 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Norway-> Ruble) made a profit of 0.115478516 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Pound-> Ruble) made a profit of 16.533081 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Dollar-> Ruble) made a profit of 20.04242 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Norway-> Ruble) made a profit of 32.606567 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Ruble) made a profit of 0.63342285 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Norway-> Sweden-> Ruble) made a profit of 33.03308 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Yen-> Sweden-> Ruble) made a profit of 0.17584229 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Yen-> Ruble) made a profit of 1.2776489 Ruble
+
+The Trading Strategy : (Ruble-> Euro-> Canada-> Yen-> Ruble) made a profit of 1.3693237 Ruble
+
+The Trading Strategy : (Ruble-> Yen-> Canada-> Euro-> Pound-> Ruble) made a profit of 14.500488 Ruble
+
+The Trading Strategy : (Ruble-> Yen-> Canada-> Euro-> Dollar-> Ruble) made a profit of 18.002869 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Yen-> Ruble) made a profit of 33.80652 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Yen-> Sweden-> Ruble) made a profit of 32.33557 Ruble
+
+The Trading Strategy : (Ruble-> Sweden-> Canada-> Euro-> Yen-> Norway-> Ruble) made a profit of 4.131775 Ruble
+
+The Trading Strategy : (Ruble-> Euro-> Canada-> Yen-> Norway-> Ruble) made a profit of 4.223633 Ruble
+
+The Trading Strategy : (Ruble-> Norway-> Canada-> Euro-> Yen-> Ruble) made a profit of 1.6009521 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Yen-> Norway-> Ruble) made a profit of 36.753296 Ruble
+
+The Trading Strategy : (Ruble-> Dollar-> Canada-> Euro-> Yen-> Norway-> Sweden-> Ruble) made a profit of 37.18152 Ruble
+
+
+
+Would you like to perform another trade, then type 'yes' in all lowercase followed by enter 
+Type anything else followed by enter to exit: 
+yes
+
+
+Type in the currency that you want to trade in with only the first letter capitalized
+Available currencies are: [Canada, Euro, Yen, Norway, Sweden, Ruble, Pound, Dollar, Australia]
+
+ The currency that you want to trade in is : 
+Pound
+If you invested a 1000 Pound
+The Trading Strategy : (Pound-> Dollar-> Australia-> Pound) made a profit of 0.5494995 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Ruble-> Pound) made a profit of 3.2000732 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Sweden-> Pound) made a profit of 14.994202 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Norway-> Pound) made a profit of 14.047241 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Norway-> Pound) made a profit of 1.0924683 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Norway-> Sweden-> Pound) made a profit of 15.413513 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Norway-> Sweden-> Pound) made a profit of 2.4412231 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Ruble-> Pound) made a profit of 28.280151 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Ruble-> Pound) made a profit of 18.211914 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Yen-> Sweden-> Pound) made a profit of 13.55011 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Sweden-> Pound) made a profit of 42.21338 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Sweden-> Pound) made a profit of 32.00879 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Sweden-> Ruble-> Pound) made a profit of 26.817017 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Sweden-> Ruble-> Pound) made a profit of 16.763184 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Yen-> Norway-> Pound) made a profit of 16.937683 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Norway-> Pound) made a profit of 45.696777 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Norway-> Pound) made a profit of 35.458008 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Norway-> Ruble-> Pound) made a profit of 31.211182 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Norway-> Ruble-> Pound) made a profit of 21.114319 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Norway-> Sweden-> Ruble-> Pound) made a profit of 31.637085 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Yen-> Norway-> Sweden-> Pound) made a profit of 18.307922 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Yen-> Norway-> Pound) made a profit of 3.3422241 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Norway-> Sweden-> Pound) made a profit of 36.85315 Pound
+
+The Trading Strategy : (Pound-> Australia-> Yen-> Norway-> Sweden-> Ruble-> Pound) made a profit of 21.536133 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Yen-> Norway-> Sweden-> Pound) made a profit of 47.105713 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Norway-> Sweden-> Ruble-> Pound) made a profit of 53.496826 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Euro-> Pound) made a profit of 0.60791016 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Pound) made a profit of 15.889648 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Sweden-> Pound) made a profit of 15.2724 Pound
+
+The Trading Strategy : (Pound-> Norway-> Euro-> Pound) made a profit of 2.012207 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Norway-> Pound) made a profit of 13.849609 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Norway-> Sweden-> Pound) made a profit of 15.215576 Pound
+
+The Trading Strategy : (Pound-> Norway-> Euro-> Sweden-> Pound) made a profit of 1.4033813 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Sweden-> Ruble-> Pound) made a profit of 53.555786 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Pound) made a profit of 70.003174 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Yen-> Sweden-> Pound) made a profit of 14.530151 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Sweden-> Pound) made a profit of 69.35303 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Norway-> Ruble-> Pound) made a profit of 53.06189 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Yen-> Norway-> Pound) made a profit of 17.92102 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Norway-> Pound) made a profit of 67.85449 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Euro-> Yen-> Norway-> Pound) made a profit of 1.7477417 Pound
+
+The Trading Strategy : (Pound-> Australia-> Euro-> Yen-> Norway-> Pound) made a profit of 1.1240234 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 19.29248 Pound
+
+The Trading Strategy : (Pound-> Yen-> Euro-> Norway-> Sweden-> Pound) made a profit of 69.29321 Pound
+
+The Trading Strategy : (Pound-> Norway-> Euro-> Yen-> Sweden-> Pound) made a profit of 0.67126465 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Euro-> Yen-> Norway-> Pound) made a profit of 2.6087646 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 3.097412 Pound
+
+The Trading Strategy : (Pound-> Australia-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 2.4729004 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Norway-> Sweden-> Ruble-> Pound) made a profit of 52.612183 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Pound) made a profit of 14.79187 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Pound) made a profit of 50.9375 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Ruble-> Pound) made a profit of 35.618774 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Sweden-> Pound) made a profit of 15.163452 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Sweden-> Pound) made a profit of 51.322266 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Sweden-> Ruble-> Pound) made a profit of 35.79138 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Norway-> Pound) made a profit of 13.888855 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Pound) made a profit of 0.8905029 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Norway-> Pound) made a profit of 50.00232 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Norway-> Ruble-> Pound) made a profit of 35.45703 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Norway-> Sweden-> Pound) made a profit of 15.254944 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Sweden-> Pound) made a profit of 1.256958 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Norway-> Sweden-> Pound) made a profit of 51.416992 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Norway-> Sweden-> Ruble-> Pound) made a profit of 35.884766 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Sweden-> Ruble-> Pound) made a profit of 52.517334 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Ruble-> Pound) made a profit of 52.34192 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Pound) made a profit of 67.90796 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Ruble-> Pound) made a profit of 37.531616 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Yen-> Sweden-> Pound) made a profit of 15.422302 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Sweden-> Pound) made a profit of 68.29895 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Sweden-> Pound) made a profit of 51.590332 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Sweden-> Ruble-> Pound) made a profit of 36.05542 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Norway-> Ruble-> Pound) made a profit of 52.17749 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Yen-> Norway-> Pound) made a profit of 18.816101 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Norway-> Pound) made a profit of 66.95764 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Norway-> Pound) made a profit of 55.10498 Pound
+
+The Trading Strategy : (Pound-> Australia-> Canada-> Yen-> Norway-> Pound) made a profit of 2.7554932 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Norway-> Ruble-> Pound) made a profit of 40.489014 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Norway-> Sweden-> Ruble-> Pound) made a profit of 40.9187 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Yen-> Norway-> Sweden-> Pound) made a profit of 20.188782 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Norway-> Sweden-> Pound) made a profit of 68.39526 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Yen-> Sweden-> Pound) made a profit of 1.5122681 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Canada-> Yen-> Norway-> Pound) made a profit of 3.5980835 Pound
+
+The Trading Strategy : (Pound-> Australia-> Canada-> Yen-> Norway-> Sweden-> Pound) made a profit of 4.1065674 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Yen-> Norway-> Sweden-> Pound) made a profit of 56.52649 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Norway-> Sweden-> Ruble-> Pound) made a profit of 53.073486 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Canada-> Euro-> Pound) made a profit of 1.19281 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Pound) made a profit of 16.374329 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Pound) made a profit of 52.576294 Pound
+
+The Trading Strategy : (Pound-> Australia-> Canada-> Euro-> Pound) made a profit of 0.3522339 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Sweden-> Pound) made a profit of 15.756836 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Sweden-> Pound) made a profit of 51.936768 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Sweden-> Ruble-> Pound) made a profit of 36.39685 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Euro-> Pound) made a profit of 2.451355 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Norway-> Pound) made a profit of 14.333374 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Norway-> Pound) made a profit of 50.462524 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Norway-> Ruble-> Pound) made a profit of 35.91101 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Norway-> Sweden-> Pound) made a profit of 15.700012 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Euro-> Sweden-> Pound) made a profit of 1.8422852 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Norway-> Sweden-> Pound) made a profit of 51.87793 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Norway-> Sweden-> Ruble-> Pound) made a profit of 36.338867 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Sweden-> Ruble-> Pound) made a profit of 53.132446 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Pound) made a profit of 69.57324 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Ruble-> Pound) made a profit of 37.114624 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Yen-> Sweden-> Pound) made a profit of 15.014282 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Sweden-> Pound) made a profit of 68.92334 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Sweden-> Pound) made a profit of 51.167603 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Sweden-> Ruble-> Pound) made a profit of 35.639038 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Norway-> Ruble-> Pound) made a profit of 52.638794 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Yen-> Norway-> Pound) made a profit of 18.406738 Pound
+
+The Trading Strategy : (Pound-> Euro-> Canada-> Yen-> Norway-> Pound) made a profit of 2.4025269 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Norway-> Pound) made a profit of 67.425415 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Norway-> Pound) made a profit of 54.68103 Pound
+
+The Trading Strategy : (Pound-> Australia-> Canada-> Euro-> Yen-> Norway-> Pound) made a profit of 2.3526 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Norway-> Ruble-> Pound) made a profit of 40.070923 Pound
+
+The Trading Strategy : (Pound-> Ruble-> Canada-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 19.77887 Pound
+
+The Trading Strategy : (Pound-> Euro-> Canada-> Yen-> Norway-> Sweden-> Pound) made a profit of 3.7531128 Pound
+
+The Trading Strategy : (Pound-> Yen-> Canada-> Euro-> Norway-> Sweden-> Pound) made a profit of 68.863525 Pound
+
+The Trading Strategy : (Pound-> Norway-> Canada-> Euro-> Yen-> Sweden-> Pound) made a profit of 1.1099243 Pound
+
+The Trading Strategy : (Pound-> Sweden-> Canada-> Euro-> Yen-> Norway-> Pound) made a profit of 3.1947632 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 56.10205 Pound
+
+The Trading Strategy : (Pound-> Australia-> Canada-> Euro-> Yen-> Norway-> Sweden-> Pound) made a profit of 3.703064 Pound
+
+The Trading Strategy : (Pound-> Dollar-> Canada-> Euro-> Yen-> Norway-> Sweden-> Ruble-> Pound) made a profit of 40.50049 Pound
+
+
+
+Would you like to perform another trade, then type 'yes' in all lowercase followed by enter 
+Type anything else followed by enter to exit: 
+no
+Done trading
+
+Process finished with exit code 0
+

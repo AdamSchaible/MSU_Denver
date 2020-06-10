@@ -1,0 +1,56 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: TOO MANY OPERANDS.mal
+OUTPUTTED LOG LOCATION: TOO MANY OPERANDS.log
+PROCESS DATE: 02-21-2019   16:19
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ;TOO MANY OPERANDS PROGRAM BY ADAM SCHAIBLE
+2. LOADI R0, 1
+3. LOADI R1, 1, 1 ;TOO MANY OPERANDS
+4. LOADI R2, 0
+5. ADD R2, R1, R0
+6. ADD R2, R0, R0, R0 ;TOO MANY OPERANDS
+7. SUB R2, R1, R2, R2 ;TOO MANY OPERANDS
+8. STORE R2, new
+9. END
+
+----------------------------
+
+Stripped MAL program Listing:
+
+2. LOADI R0, 1
+3. LOADI R1, 1, 1
+4. LOADI R2, 0
+5. ADD R2, R1, R0
+6. ADD R2, R0, R0, R0
+7. SUB R2, R1, R2, R2
+8. STORE R2, new
+9. END
+
+----------------------------
+
+Error and Warning Report Listing:
+
+3. LOADI R1, 1, 1
+**Error: too many operands for LOADI Please use only 2 operands
+6. ADD R2, R0, R0, R0
+**Error: too many operands for ADD Please use only 3 operands
+7. SUB R2, R1, R2, R2
+**Error: too many operands for SUB Please use only 3 operands
+
+--------------------------------------
+
+Total Errors: 3
+	3 Too many operands
+
+--------------------------------------
+
+Total warnings: 0
+
+--------------------------------------
+Processing Complete -- MAL program is invalid

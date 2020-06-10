@@ -1,0 +1,51 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: END_ERRORS.mal
+OUTPUTTED LOG LOCATION: END_ERRORS.log
+PROCESS DATE: 02-21-2019   15:57
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ;; Adam Schaible, program with END errors, end thats not on the last line and multiple ENDs
+2. 
+3.           LOADI     R0, 6
+4. 
+5.           END 
+6. 
+7.           ADD       R1, RO, RO
+8. 
+9.           END ; END NOT AT LAST LOCATION, AND NOTICE THIS IS THE SECOND END
+10. 
+11.           STORE     R0, now         
+
+----------------------------
+
+Stripped MAL program Listing:
+
+3.           LOADI     R0, 6
+5.           END 
+7.           ADD       R1, RO, RO
+9.           END
+11.           STORE     R0, now         
+
+----------------------------
+
+Error and Warning Report Listing:
+
+**Error: END appeared 2 times it should appear one time
+**Error: END is not the last instruction in the program
+
+--------------------------------------
+
+Total Errors: 2
+	2 END errors
+
+--------------------------------------
+
+Total warnings: 0
+
+--------------------------------------
+Processing Complete -- MAL program is invalid

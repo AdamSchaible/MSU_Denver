@@ -1,0 +1,58 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: MULTIPLE_ERRORS_ON_ONE_LINE.mal
+OUTPUTTED LOG LOCATION: MULTIPLE_ERRORS_ON_ONE_LINE.log
+PROCESS DATE: 02-21-2019   16:06
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ;; Adam Schaible, program with multiple errors on same line
+2. 
+3.           LOADI     R2, 6zIRKEKEJRM, R1 ; too many operands and invalid literal
+4. 
+5.           ADD       R2, R2, R2
+6. 
+7.           STORE     R2, now12345!, R7 ; too many operands and a invalid memory location
+8. 
+9.           END
+
+----------------------------
+
+Stripped MAL program Listing:
+
+3.           LOADI     R2, 6zIRKEKEJRM, R1
+5.           ADD       R2, R2, R2
+7.           STORE     R2, now12345!, R7
+9.           END
+
+----------------------------
+
+Error and Warning Report Listing:
+
+3.           LOADI     R2, 6zIRKEKEJRM, R1
+**Error: too many operands for LOADI Please use only 2 operands
+3.           LOADI     R2, 6zIRKEKEJRM, R1
+**Error: ill formed literal - the literal: 6zIRKEKEJRM is not octal, replace with a octal number
+7.           STORE     R2, now12345!, R7
+**Error: too many operands for STORE Please use only 2 operands
+7.           STORE     R2, now12345!, R7
+**Error: ill-formed identifier now12345! - More than 5 characters used, please use no more than 5 characters for the identifier 
+7.           STORE     R2, now12345!, R7
+**Error: ill-formed identifier now12345! - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+
+--------------------------------------
+
+Total Errors: 5
+	2 Too many operands
+	2 Ill formed identifiers
+	1 Ill formed literal
+
+--------------------------------------
+
+Total warnings: 0
+
+--------------------------------------
+Processing Complete -- MAL program is invalid

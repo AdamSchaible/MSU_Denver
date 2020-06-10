@@ -1,0 +1,63 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: PLAIN_PROGRAM_NO_ERRORS_OR_COMMENTS.mal
+OUTPUTTED LOG LOCATION: PLAIN_PROGRAM_NO_ERRORS_OR_COMMENTS.log
+PROCESS DATE: 02-21-2019   16:10
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ;; Gurka, plain program #1, no errors
+2. 
+3.           LOADI     R0, 0
+4. 
+5.           LOADI     R1, 1
+6. 
+7.           LOADI     R2, 12
+8. 
+9.   TOP:   
+10. 
+11.           BGT       R1, R2, CONT
+12. 
+13.           ADD       R0, R1, R0
+14. 
+15.           INC       R1
+16. 
+17.           BR        TOP
+18. 
+19.   CONT:   STORE     R0, TOTAL
+20. 
+21.           END
+
+----------------------------
+
+Stripped MAL program Listing:
+
+3.           LOADI     R0, 0
+5.           LOADI     R1, 1
+7.           LOADI     R2, 12
+9.   TOP:   
+11.           BGT       R1, R2, CONT
+13.           ADD       R0, R1, R0
+15.           INC       R1
+17.           BR        TOP
+19.   CONT:   STORE     R0, TOTAL
+21.           END
+
+----------------------------
+
+Error and Warning Report Listing:
+
+
+--------------------------------------
+
+Total Errors: 0
+
+--------------------------------------
+
+Total warnings: 0
+
+--------------------------------------
+Processing Complete -- MAL program is valid

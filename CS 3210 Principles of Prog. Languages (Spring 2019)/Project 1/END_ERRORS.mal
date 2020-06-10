@@ -1,0 +1,11 @@
+;; Adam Schaible, program with END errors, end thats not on the last line and multiple ENDs
+
+          LOADI     R0, 6
+
+          END 
+
+          ADD       R1, RO, RO
+
+          END ; END NOT AT LAST LOCATION, AND NOTICE THIS IS THE SECOND END
+
+          STORE     R0, now         

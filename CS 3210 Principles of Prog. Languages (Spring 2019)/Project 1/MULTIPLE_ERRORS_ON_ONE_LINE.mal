@@ -1,0 +1,9 @@
+;; Adam Schaible, program with multiple errors on same line
+
+          LOADI     R2, 6zIRKEKEJRM, R1 ; too many operands and invalid literal
+
+          ADD       R2, R2, R2
+
+          STORE     R2, now12345!, R7 ; too many operands and a invalid memory location
+
+          END

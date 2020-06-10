@@ -1,0 +1,7 @@
+;program with multiple errors, by Adam Schaible
+LOADI R0 ;missing an operand
+LOADI R2, #A ;invalid memory location, non-alpha characters
+LOOP: ;label is not branched to
+BEQ R0, R2 final ; branch goes to a non-existent label
+STOREWHATEVER R2, now ;invalid opcode
+END

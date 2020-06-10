@@ -1,0 +1,60 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: PROGRAM_WITH_A_FEW_SAMPLE_ERRORS.mal
+OUTPUTTED LOG LOCATION: PROGRAM_WITH_A_FEW_SAMPLE_ERRORS.log
+PROCESS DATE: 02-21-2019   16:28
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ;program with multiple errors, by Adam Schaible
+2. LOADI R0 ;missing an operand
+3. LOADI R2, #A ;invalid memory location, non-alpha characters
+4. LOOP: ;label is not branched to
+5. BEQ R0, R2 final ; branch goes to a non-existent label
+6. STOREWHATEVER R2, now ;invalid opcode
+7. END
+
+----------------------------
+
+Stripped MAL program Listing:
+
+2. LOADI R0
+3. LOADI R2, #A
+4. LOOP:
+5. BEQ R0, R2 final
+6. STOREWHATEVER R2, now
+7. END
+
+----------------------------
+
+Error and Warning Report Listing:
+
+2. LOADI R0
+**Error: too few operands for LOADI Please use 2 operands
+3. LOADI R2, #A
+**Error: ill formed literal - the literal: #A is not octal, replace with a octal number
+6. STOREWHATEVER R2, now
+**Error: invalid opcode - your opcode STOREWHATEVER is not valid, please replace with a valid opcode, such as LOAD, LOADI, STORE, ADD, INC, SUB, DEC, BEQ, BLT, BGT, BR, NOOP, END
+4. LOOP:
+**Warning, label: LOOP is never branched to
+5. BEQ R0, R2 final
+**Warning, branch: final goes to a non-existent label
+
+--------------------------------------
+
+Total Errors: 3
+	1 Invalid opcode
+	1 Too few operand
+	1 Ill formed literal
+
+--------------------------------------
+
+Total warnings: 2
+	1 branch go to a non-existent label
+	1 label never branched to
+
+--------------------------------------
+Processing Complete -- MAL program is invalid

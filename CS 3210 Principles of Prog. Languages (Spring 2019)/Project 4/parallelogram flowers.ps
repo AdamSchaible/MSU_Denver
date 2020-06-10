@@ -1,0 +1,170 @@
+%ps
+% ------- one inch is 72 postscript units----
+/inch  {72 mul} def
+
+/parallelogramoutline
+{  
+0 inch 0 inch newpath moveto
+1 inch 0 inch lineto
+1.5 inch 0.8 inch lineto
+0.5 inch 0.8 inch lineto
+closepath
+} def
+
+/parallelogramblue
+{
+parallelogramoutline
+gsave
+0 1 1 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramred
+{
+parallelogramoutline
+gsave
+1 0 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramgreen
+{
+parallelogramoutline
+gsave
+0 1 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramdarkblue
+{
+parallelogramoutline
+gsave
+0 0 1 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogrammagenta
+{
+parallelogramoutline
+gsave
+1 0 1 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramyellow
+{
+parallelogramoutline
+gsave
+1 1 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramorange
+{
+parallelogramoutline
+gsave
+1 0.7 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogrambrown
+{
+parallelogramoutline
+gsave
+0.7 0.3 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramwhite
+{
+parallelogramoutline
+gsave
+1 1 1 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramdarkgreen
+{
+parallelogramoutline
+gsave
+0.0 0.5 0.0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogrampurple
+{
+parallelogramoutline
+gsave
+0.7 0.3 1.0 setrgbcolor fill
+grestore
+stroke
+}def
+
+/parallelogramblack
+{
+parallelogramoutline
+gsave
+0 0 0 setrgbcolor fill
+grestore
+stroke
+}def
+
+
+/parallelogramflower
+{
+gsave
+2 inch 2 inch translate parallelogramblue
+30 rotate
+parallelogramred
+30 rotate
+parallelogramgreen
+30 rotate
+parallelogramdarkblue
+30 rotate
+parallelogrammagenta
+30 rotate
+parallelogramyellow
+30 rotate
+parallelogramorange
+30 rotate
+parallelogrambrown
+30 rotate
+parallelogramwhite
+30 rotate
+parallelogramdarkgreen
+30 rotate
+parallelogrampurple
+30 rotate
+parallelogramblack
+grestore
+} def
+parallelogramflower
+gsave
+1.5 inch 1.5 inch translate
+1.5 1.5 scale
+parallelogramflower
+grestore
+
+gsave
+0 inch 5 inch translate
+2 2 scale
+parallelogramflower
+grestore
+
+/Helvetica-Bold findfont
+16 scalefont
+setfont
+0.5 inch 5.5 inch newpath moveto
+(By Adam Schaible) show
+
+showpage

@@ -1,0 +1,308 @@
+_____MAL PROGRAM EVALUATION LOG_____
+
+INPUTTED MAL LOCATION: PROGRAM_WITH_LOTS_OF_ASSORTED_ERRORS.mal
+OUTPUTTED LOG LOCATION: PROGRAM_WITH_LOTS_OF_ASSORTED_ERRORS.log
+PROCESS DATE: 02-21-2019   15:43
+Name: Adam Schaible
+Class: CS3210
+-------------------------------------
+
+original MAL program listing:
+
+1. ; By Adam Schaible, program that contains all errors checked by the MAL testing program
+2. 
+3. 	  NOOP R3, X2 ; TOO MANY OPERANDS
+4. 
+5. 	  LOAD R0, SDFSDF3456 ; BAD MEMORY LOCATION, NON-ALPHA CHARACTERS, TOO LONG
+6. 
+7. 	  LOAD R0, 3456 ; BAD MEMORY LOCATION, NON-ALPHA CHARACTERS
+8. 
+9. 	  LOAD R0, EKJRELKJRSDF ;MEMORY LOCATION TOO LONG
+10. 
+11. 	  LOAD R2 ;TOO FEW OPERANDS
+12. 
+13. 	  LOAD R4, 435kl435lk4j5, R5 ;TOO MANY OPERANDS, MEMORY LOCATION TOO LONG, NON-ALPHA CHARACTERS
+14. 
+15. 	  LOADI RO ; TOO FEW OPERANDS
+16. 
+17. 	  LOADI R2, aaaa ; NON-OCTAL FOR LITERAL VALUE
+18. 
+19. 	  LOADI R3, 999999 ; NON OCTAL FOR LITERAL VALUE
+20. 
+21. 	  LOADI R4, 345K4J54JK54XXX, R6 ; NON OCTAL FOR LITERAL AND TOO MANY OPERANDS
+22. 
+23.           LDA R0, 0 ; INVALID OPCODE
+24. 
+25.           BR	  NOWHERE3445, R1 ; BAD LABEL, DOES NOT BRANCH
+26. 	
+27. 	  BR		;WRONG NUMBER OF OPERANDS
+28. 
+29. 	  BGT		;WRONG NUMBER OF OPERANDS
+30. 
+31. 	  BGT R1, R3, aaaaaa, R4 ;WRONG NUMBER OF OPERANDS, BAD LABEL, DOES NOT BRANCH
+32. 
+33. 	  BGT R1 ;WRONG NUMBER OF OPERANDS
+34. 
+35. 	  BGT   R2, R2, 3k3j3l4jl3kl34jkl23j4 ;BAD LABEL, DOES NOT BRANCH
+36. 
+37. 	  BGT	;WRONG NUMBER OF OPERANDS
+38. 
+39. 	  BLT	R3, R3, SDKLFJSDLKFJSDKLFJ, R4 ;WRONG NUMBER OF OPERANDS, BAD LABEL, DOES NOT BRANCH
+40. 
+41. 4KL5J345LKJ345:	BLT R2 ;WRONG NUMBER OF OPERANDS
+42. 
+43. 	  BLT   R6, R4, ;54kl6j34l5kj345l3j5j4, BAD LABEL, DOES NOT BRANCH 
+44. 
+45. 	  END R0 ;END NOT AT THE END OF PROGRAM WITH WRONG NUMBER OF OPERANDS
+46. 
+47. 	  STORE R1, aaaaaaaaaaaaaaaaaaa ;BAD LABEL, TOO MANY CHARACTERS
+48. 	  
+49. 	  STORE R2, 1111111111111111111 ;BAD LABEL, TOO MANY CHARACTERS, NON-ALPHA CHARACTERS PRESENT
+50. 
+51. 	  STORE R3, 345klj34l5kj34l5kj345lk4 ;BAD LABEL, TOO MANY CHARACTERS, NON-ALPHA CHARACTERS PRESENT
+52. 
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R5;BAD LABEL, TOO MANY CHARACTERS, NON-ALPHA CHARACTERS PRESENT, TOO MANY OPERANDS, INVALID LABEL
+54. 
+55. 	  STORE R5 ;TOO FEW OPERANDS		     
+56. 
+57. TZKD120938490!: 	;INVALID LABEL
+58. 
+59. 	  END ; NOT AT END OF PROGRAM
+60. 
+61. 	  BEQ ;TOO FEW OPERANDS
+62. 
+63. 	  BEQ R5, R1, 546546546, R4 ; TOO MANY OPERANDS, LABEL TOO LONG, LABEL NON-ALPHANUMERIC
+64. 
+65. 	  BEQ R2 ;TOO FEW OPERANDS
+66. 
+67. 	  BEQ R3, R3, jjjjjjjjjjjjjjjj45   ;LABEL TOO LONG, LABEL HAS NON-ALPHANUMERIC CHARACTERS
+68. 
+69. 	  DEC R4, R5 ; TOO MANY OPERANDS
+70. 
+71. 	  DEC ; TOO FEW OPERANDS
+72. 
+73. 	  INC R3, R4 ;TOO MANY OPERANDS
+74. 
+75. 	  INC ; TOO FEW OPERANDS
+76. 
+77. 	  SUB RO ; TOO FEW OPERANDS
+78. 
+79. 	  SUB R3, R5, R6, R7 ; TOO MANY OPERANDS
+80. 
+81. 	  ADD R4, R7, R3, R2 ; TOO MANY OPERANDS
+82. 
+83. 	  ADD R0 ; TOO FEW OPERANDS
+84. 
+85. 	  STORE R1 ; TOO FEW OPERANDS
+86. 
+87. 	  STORE R2, KDLSKFJLDSFJLDFJK ; MEMORY LOCATION TOO LONG
+88. 
+89. 	  STORE R3, 345345435DLSDKFJ ; MEMORY LOCATION TOO LONG AND CONTAINS NON-ALPHA CHARACTERS
+90. 
+91. 	  STORE R4, TOO, R6 ; TOO MANY OPERANDS
+92. 	
+93. 
+94.           
+95. 
+96.  
+
+----------------------------
+
+Stripped MAL program Listing:
+
+3. 	  NOOP R3, X2
+5. 	  LOAD R0, SDFSDF3456
+7. 	  LOAD R0, 3456
+9. 	  LOAD R0, EKJRELKJRSDF
+11. 	  LOAD R2
+13. 	  LOAD R4, 435kl435lk4j5, R5
+15. 	  LOADI RO
+17. 	  LOADI R2, aaaa
+19. 	  LOADI R3, 999999
+21. 	  LOADI R4, 345K4J54JK54XXX, R6
+23.           LDA R0, 0
+25.           BR	  NOWHERE3445, R1
+27. 	  BR	
+29. 	  BGT	
+31. 	  BGT R1, R3, aaaaaa, R4
+33. 	  BGT R1
+35. 	  BGT   R2, R2, 3k3j3l4jl3kl34jkl23j4
+37. 	  BGT
+39. 	  BLT	R3, R3, SDKLFJSDLKFJSDKLFJ, R4
+41. 4KL5J345LKJ345:	BLT R2
+43. 	  BLT   R6, R4,
+45. 	  END R0
+47. 	  STORE R1, aaaaaaaaaaaaaaaaaaa
+49. 	  STORE R2, 1111111111111111111
+51. 	  STORE R3, 345klj34l5kj34l5kj345lk4
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+55. 	  STORE R5
+57. TZKD120938490!: 
+59. 	  END
+61. 	  BEQ
+63. 	  BEQ R5, R1, 546546546, R4
+65. 	  BEQ R2
+67. 	  BEQ R3, R3, jjjjjjjjjjjjjjjj45  
+69. 	  DEC R4, R5
+71. 	  DEC
+73. 	  INC R3, R4
+75. 	  INC
+77. 	  SUB RO
+79. 	  SUB R3, R5, R6, R7
+81. 	  ADD R4, R7, R3, R2
+83. 	  ADD R0
+85. 	  STORE R1
+87. 	  STORE R2, KDLSKFJLDSFJLDFJK
+89. 	  STORE R3, 345345435DLSDKFJ
+91. 	  STORE R4, TOO, R6
+
+----------------------------
+
+Error and Warning Report Listing:
+
+3. 	  NOOP R3, X2
+**Error: too many operands for NOOP Please use only 0 operands
+5. 	  LOAD R0, SDFSDF3456
+**Error: ill-formed identifier SDFSDF3456 - More than 5 characters used, please use no more than 5 characters for the identifier 
+5. 	  LOAD R0, SDFSDF3456
+**Error: ill-formed identifier SDFSDF3456 - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+7. 	  LOAD R0, 3456
+**Error: ill-formed identifier 3456 - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+9. 	  LOAD R0, EKJRELKJRSDF
+**Error: ill-formed identifier EKJRELKJRSDF - More than 5 characters used, please use no more than 5 characters for the identifier 
+11. 	  LOAD R2
+**Error: too few operands for LOAD Please use 2 operands
+13. 	  LOAD R4, 435kl435lk4j5, R5
+**Error: too many operands for LOAD Please use only 2 operands
+13. 	  LOAD R4, 435kl435lk4j5, R5
+**Error: ill-formed identifier 435kl435lk4j5 - More than 5 characters used, please use no more than 5 characters for the identifier 
+13. 	  LOAD R4, 435kl435lk4j5, R5
+**Error: ill-formed identifier 435kl435lk4j5 - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+15. 	  LOADI RO
+**Error: too few operands for LOADI Please use 2 operands
+17. 	  LOADI R2, aaaa
+**Error: ill formed literal - the literal: aaaa is not octal, replace with a octal number
+19. 	  LOADI R3, 999999
+**Error: ill formed literal - the literal: 999999 is not octal, replace with a octal number
+21. 	  LOADI R4, 345K4J54JK54XXX, R6
+**Error: too many operands for LOADI Please use only 2 operands
+21. 	  LOADI R4, 345K4J54JK54XXX, R6
+**Error: ill formed literal - the literal: 345K4J54JK54XXX is not octal, replace with a octal number
+23.           LDA R0, 0
+**Error: invalid opcode - your opcode LDA is not valid, please replace with a valid opcode, such as LOAD, LOADI, STORE, ADD, INC, SUB, DEC, BEQ, BLT, BGT, BR, NOOP, END
+25.           BR	  NOWHERE3445, R1
+**Error: too many operands for BR Please use only 1 operands
+27. 	  BR	
+**Error: too few operands for BR Please use 1 operands
+29. 	  BGT	
+**Error: too few operands for BGT Please use 3 operands
+31. 	  BGT R1, R3, aaaaaa, R4
+**Error: too many operands for BGT Please use only 3 operands
+33. 	  BGT R1
+**Error: too few operands for BGT Please use 3 operands
+35. 	  BGT   R2, R2, 3k3j3l4jl3kl34jkl23j4
+**Error: ill formed label - non-alpha found in label: 3k3j3l4jl3kl34jkl23j4 please use only A-Z or a-z in label.
+35. 	  BGT   R2, R2, 3k3j3l4jl3kl34jkl23j4
+Error:ill formed label - more than 5 characters in your label 3k3j3l4jl3kl34jkl23j4, please make your label five characters or less.
+37. 	  BGT
+**Error: too few operands for BGT Please use 3 operands
+39. 	  BLT	R3, R3, SDKLFJSDLKFJSDKLFJ, R4
+**Error: invalid opcode - your opcode BLTR3 is not valid, please replace with a valid opcode, such as LOAD, LOADI, STORE, ADD, INC, SUB, DEC, BEQ, BLT, BGT, BR, NOOP, END
+41. 4KL5J345LKJ345:	BLT R2
+**Error: ill formed label - non-alpha found in label: 4KL5J345LKJ345 please use only A-Z or a-z in label.
+41. 4KL5J345LKJ345:	BLT R2
+Error:ill formed label - more than 5 characters in your label 4KL5J345LKJ345, please make your label five characters or less.
+41. 4KL5J345LKJ345:	BLT R2
+**Error: too few operands for BLT Please use 3 operands
+43. 	  BLT   R6, R4,
+**Error: too few operands for BLT Please use 3 operands
+45. 	  END R0
+**Error: too many operands for END Please use only 0 operands
+47. 	  STORE R1, aaaaaaaaaaaaaaaaaaa
+**Error: ill-formed identifier aaaaaaaaaaaaaaaaaaa - More than 5 characters used, please use no more than 5 characters for the identifier 
+49. 	  STORE R2, 1111111111111111111
+**Error: ill-formed identifier 1111111111111111111 - More than 5 characters used, please use no more than 5 characters for the identifier 
+49. 	  STORE R2, 1111111111111111111
+**Error: ill-formed identifier 1111111111111111111 - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+51. 	  STORE R3, 345klj34l5kj34l5kj345lk4
+**Error: ill-formed identifier 345klj34l5kj34l5kj345lk4 - More than 5 characters used, please use no more than 5 characters for the identifier 
+51. 	  STORE R3, 345klj34l5kj34l5kj345lk4
+**Error: ill-formed identifier 345klj34l5kj34l5kj345lk4 - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+**Error: ill formed label - non-alpha found in label: TZKD120546546490! please use only A-Z or a-z in label.
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+Error:ill formed label - more than 5 characters in your label TZKD120546546490!, please make your label five characters or less.
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+**Error: too many operands for STORE Please use only 2 operands
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+**Error: ill-formed identifier 34lk5j34lk5j - More than 5 characters used, please use no more than 5 characters for the identifier 
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+**Error: ill-formed identifier 34lk5j34lk5j - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+55. 	  STORE R5
+**Error: too few operands for STORE Please use 2 operands
+57. TZKD120938490!: 
+**Error: ill formed label - non-alpha found in label: TZKD120938490! please use only A-Z or a-z in label.
+57. TZKD120938490!: 
+Error:ill formed label - more than 5 characters in your label TZKD120938490!, please make your label five characters or less.
+67. 	  BEQ R3, R3, jjjjjjjjjjjjjjjj45  
+**Error: ill formed label - non-alpha found in label: jjjjjjjjjjjjjjjj45 please use only A-Z or a-z in label.
+67. 	  BEQ R3, R3, jjjjjjjjjjjjjjjj45  
+Error:ill formed label - more than 5 characters in your label jjjjjjjjjjjjjjjj45, please make your label five characters or less.
+69. 	  DEC R4, R5
+**Error: too many operands for DEC Please use only 1 operands
+71. 	  DEC
+**Error: too few operands for DEC Please use 1 operands
+73. 	  INC R3, R4
+**Error: too many operands for INC Please use only 1 operands
+75. 	  INC
+**Error: too few operands for INC Please use 1 operands
+77. 	  SUB RO
+**Error: too few operands for SUB Please use 3 operands
+79. 	  SUB R3, R5, R6, R7
+**Error: too many operands for SUB Please use only 3 operands
+81. 	  ADD R4, R7, R3, R2
+**Error: too many operands for ADD Please use only 3 operands
+83. 	  ADD R0
+**Error: too few operands for ADD Please use 3 operands
+85. 	  STORE R1
+**Error: too few operands for STORE Please use 2 operands
+87. 	  STORE R2, KDLSKFJLDSFJLDFJK
+**Error: ill-formed identifier KDLSKFJLDSFJLDFJK - More than 5 characters used, please use no more than 5 characters for the identifier 
+89. 	  STORE R3, 345345435DLSDKFJ
+**Error: ill-formed identifier 345345435DLSDKFJ - More than 5 characters used, please use no more than 5 characters for the identifier 
+89. 	  STORE R3, 345345435DLSDKFJ
+**Error: ill-formed identifier 345345435DLSDKFJ - non alpha characters used in identifier, please use only A-Z or a-z in identifier
+91. 	  STORE R4, TOO, R6
+**Error: too many operands for STORE Please use only 2 operands
+41. 4KL5J345LKJ345:	BLT R2
+**Warning, label: 4KL5J345LKJ345 is never branched to
+53. TZKD120546546490!:STORE R4, 34lk5j34lk5j, R
+**Warning, label: TZKD120546546490! is never branched to
+57. TZKD120938490!: 
+**Warning, label: TZKD120938490! is never branched to
+35. 	  BGT   R2, R2, 3k3j3l4jl3kl34jkl23j4
+**Warning, branch: 3k3j3l4jl3kl34jkl23j4 goes to a non-existent label
+67. 	  BEQ R3, R3, jjjjjjjjjjjjjjjj45  
+**Warning, branch: jjjjjjjjjjjjjjjj45 goes to a non-existent label
+**Error: END appeared 2 times it should appear one time
+**Error: END is not the last instruction in the program
+
+--------------------------------------
+
+Total Errors: 59
+	2 END errors
+	10 Ill formed labels
+	2 Invalid opcodes
+	12 Too many operands
+	14 Too few operands
+	16 Ill formed identifiers
+	3 Ill formed literals
+
+--------------------------------------
+
+Total warnings: 5
+	2 branches go to a non-existent label
+	3 labels never branched to
+
+--------------------------------------
+Processing Complete -- MAL program is invalid

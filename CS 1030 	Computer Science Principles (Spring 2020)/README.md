@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 1030 computer science principles that I took at msu denver in spring of 2020. Below is a general description about what each project is about. Each of the projects in this repository is written in Python with version 3.
+This repository contains my programming projects for the CS 1030 computer science principles that I took at MSU Denver in spring of 2020. Below is a general description about what each project is about. Each of the projects in this repository is written in Python with version 3.
 
 [PROJECT 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%201030%20%09Computer%20Science%20Principles%20(Spring%202020)/Project%201) : 
 Consists of three separate programs. 

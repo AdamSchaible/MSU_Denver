@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 2050 Computer Science 2 class that I took at MSU Denver in Summer of 2018. Below is a general description about what each programming projects is about. The programs in this repository is written in Python with version 2.
+This repository contains my programming projects for the CS 2050 Computer Science 2 class that I took at MSU Denver in Summer of 2018. Below is a general description about what each programming assignment is about. The programs in this repository are written in Python with version 2.
 
 [Assignment 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%201) :
 

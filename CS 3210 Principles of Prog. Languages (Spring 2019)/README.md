@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 3210 Principles of Prog. Languages that I took at MSU Denver in Spring of 2019. Below is a general description about what each programming project is about. The programs in this repository are written in various languages, which are noted in the project descriptions.
+This repository contains my programming projects for the CS 3210 Principles of Prog. Languages class that I took at MSU Denver in Spring of 2019. Below is a general description about what each programming project is about. The programs in this repository are written in various languages, which are noted in the project descriptions.
 
 [Project 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%201) :
 

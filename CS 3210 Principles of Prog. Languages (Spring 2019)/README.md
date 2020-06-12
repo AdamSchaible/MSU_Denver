@@ -34,9 +34,7 @@ Consists of several small programs that are written in Lisp. Programs include th
 
 [Project 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%204) :
 
-Consisted of writing 5 different PostScript programs that generated  different pictures.
-![ ](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%204/smile.ps  "smile.ps") 
-
+Consisted of writing 5 different PostScript programs that generated  different pictures. For more details click on the project link.
 
 [Project 5](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%205) :
 

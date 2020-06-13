@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 3810 Principles of Database Systems that I took at MSU Denver in Fall of 2019. Below is a general description about what each programming assignment is about. 
+This repository contains my programming assignments for the CS 3810 Principles of Database Systems class that I took at MSU Denver in Fall of 2019. Below is a general description about what each programming assignment is about. 
 
 [Database Assignment 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%201) :
 

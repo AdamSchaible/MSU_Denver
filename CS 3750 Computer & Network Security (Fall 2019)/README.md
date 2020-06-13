@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 3750 Computer & Network Security class that I took at MSU Denver in Fall of 2019. All the projects were written in Java. Below is a general description about what each programming project or programming homework is about. 
+This repository contains my programming project and programming homework for the CS 3750 Computer & Network Security class that I took at MSU Denver in Fall of 2019. All the homeworks and the project were written in Java. Below is a general description about what the programming project or programming homeworks are about. 
 
 [HW 2](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203750%20Computer%20%26%20Network%20Security%20(Fall%202019)/HW%202) :
 

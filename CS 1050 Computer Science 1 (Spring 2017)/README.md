@@ -1,6 +1,6 @@
 AUTHOR: ADAM SCHAIBLE
 
-This repository contains my programming projects for the CS 1050 Computer Science 1 class that I took at MSU Denver in spring of 2017. Below is a general description about what each programming homework is about. The programs in this repository are written in Java.
+This repository contains my programming homeworks for the CS 1050 Computer Science 1 class that I took at MSU Denver in spring of 2017. Below is a general description about what each programming homework is about. The programs in this repository are written in Java.
 
 [HW 4 BIRD PROJECT](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%204%20BIRD%20PROJECT) :
 Users can simulate simulate some of the things that most flying birds can do through. The user will assign the bird a name, size, flying speed, weight and current elevation and after the bird has been assigned these properties the properties can be changed by calling upon methods that make the bird do certian things, such as eat, fly up or fly down. Users also can change the birds name or size, flying speed, weight or elevation. There are also methods that the user can call on to tell the user what the properties of the bird are.

@@ -27,6 +27,8 @@ The first program generates a temperature conversion table for Celcius and Fahre
 
 The second program takes in numbers from a user and puts them in a list. When the user enters zero the program takes the numbers in the list and displays all of the numbers that are below the average, that equal the average, and that are above the average.
 
+The third program uses a dictionary to validate whether the postal code that a user enters in is a valid Canadian postal code.
+
 [PROJECT 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%201030%20%09Computer%20Science%20Principles%20(Spring%202020)/Project%204) :
 
 Consists of three seperate programs.

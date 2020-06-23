@@ -1,7 +1,15 @@
-PROJECT TITLE:
-PROJECT DESCRIPTION:
-TABLE OF CONTENTS: (OPTIONAL)
-VERSION or DATE:
-USER INSTRUCTIONS:
-ADDITIONAL NOTES:
-AUTHORS:
+**HOMEWORK TITLE:** ....
+
+**HOMEWORK DESCRIPTION:**
+
+......
+All files related to this project are contained in this directory.
+
+**VERSION or DATE:** ....
+
+**USER INSTRUCTIONS:** 
+.....
+
+**ADDITIONAL NOTES:** None
+
+**AUTHOR:** Adam Schaible

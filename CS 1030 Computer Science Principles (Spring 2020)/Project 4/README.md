@@ -27,7 +27,16 @@ The file [AdamSchaible 03 04 03 Output.txt](https://github.com/AdamSchaible/MSU_
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
-2) In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run in quotations, e.g. python3 "hello world.py" followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
+2) First open your terminal or command line to the folder containing the python program. In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
+
+To run the first program use the command:
+python3 AdamSchaible_03_04_01.py
+
+To run the second program use the command:
+python3 AdamSchaible_03_04_02.py
+
+To run the third program use the command:
+python3 AdamSchaible_03_04_03.py
 
 **PROBLEMS THAT NEED ADDRESSING:** None
 

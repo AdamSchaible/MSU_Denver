@@ -15,6 +15,6 @@ All files related to this project are contained in this directory.
 java hello.java
 javac hello
 
-**ADDITIONAL NOTES:** None
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

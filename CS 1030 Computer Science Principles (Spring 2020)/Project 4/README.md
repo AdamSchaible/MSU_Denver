@@ -29,6 +29,6 @@ The file [AdamSchaible 03 04 03 Output.txt](https://github.com/AdamSchaible/MSU_
 
 2) In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run in quotations, e.g. python3 "hello world.py" followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
 
-**ADDITIONAL NOTES:** None
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

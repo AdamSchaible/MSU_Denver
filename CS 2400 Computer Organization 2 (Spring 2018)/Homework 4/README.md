@@ -10,6 +10,6 @@ All files related to this project are contained in this directory.
 **USER INSTRUCTIONS:** 
 .....
 
-**ADDITIONAL NOTES:** None
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

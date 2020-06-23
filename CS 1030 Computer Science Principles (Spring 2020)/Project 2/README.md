@@ -23,6 +23,6 @@ The file [text output for AdamSchaible_03_02_02.txt](https://github.com/AdamScha
 
 2) In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
 
-**ADDITIONAL NOTES:** None
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

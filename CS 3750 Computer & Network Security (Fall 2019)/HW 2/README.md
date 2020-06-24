@@ -1,13 +1,14 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** Homework 2
 
-**HOMEWORK DESCRIPTION:**
+**HOMEWORK DESCRIPTION:** 
 
-...
+Consisted of writing two Java programs, one for encryption and the other for decryption, to implement the Tiny Encryption Algorithm (TEA).
+
 All files related to this homework are contained in this directory.
 
-The full homework description and requirements are in...
+The full homework description and requirements are in [HW2_CS3750.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203750%20Computer%20%26%20Network%20Security%20(Fall%202019)/HW%202/HW2_CS3750.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 09/01/2019
 
 **USER INSTRUCTIONS:** 
 

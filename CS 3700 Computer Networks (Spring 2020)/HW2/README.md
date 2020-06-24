@@ -1,13 +1,14 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** Homework 2
 
 **HOMEWORK DESCRIPTION:**
 
-...
+Consisted of writing a client program and a server program to implement a protocol on top of UDP in Java.
+
 All files related to this homework are contained in this directory.
 
-The full homework description and requirements are in...
+The full homework description and requirements are in [HW2_CS3700.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203700%20Computer%20Networks%20(Spring%202020)/HW2/HW2_CS3700.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 2/9/2020
 
 **USER INSTRUCTIONS:** 
 

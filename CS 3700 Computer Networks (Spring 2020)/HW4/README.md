@@ -1,13 +1,14 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** Homework 4
 
 **HOMEWORK DESCRIPTION:**
 
-...
+Consisted of writing a SMTP client program and a SMTP server program to implement the a simplified SMTP protocol based on TCP service. Server was written to support multiple clients. Both client and server were written in Java. 
+
 All files related to this homework are contained in this directory.
 
-The full homework description and requirements are in...
+The full homework description and requirements are in [HW4_CS3700.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203700%20Computer%20Networks%20(Spring%202020)/HW4/HW4_CS3700.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 02/25/2020
 
 **USER INSTRUCTIONS:** 
 

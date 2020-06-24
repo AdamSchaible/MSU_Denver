@@ -2,12 +2,13 @@
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+Implementing a DFA(Deterministic finite automaton) using Java. 
+
 All files related to this assignment are contained in this directory.
 
-The full assignment description and requirements are in...
+The full assignment description and requirements are in [Assignment C - Java implementation of DFA.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203240%20Intro%20to%20Theory%20of%20Computation%20(Spring%202019)/Assignment%20C/Assignment%20C%20-%20Java%20implementation%20of%20DFA.docx).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 04/08/2019
 
 **USER INSTRUCTIONS:** 
 

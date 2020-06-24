@@ -3,9 +3,9 @@
 **HOMEWORK DESCRIPTION:**
 
 ...
-All files related to this project are contained in this directory.
+All files related to this homework are contained in this directory.
 
-The full project description and requirements are in...
+The full homework description and requirements are in...
 
 **VERSION or DATE:** ….
 

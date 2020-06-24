@@ -1,11 +1,11 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** HW 8 BANK
 
 **HOMEWORK DESCRIPTION:**
 
 ...
-All files related to this project are contained in this directory.
+All files related to this homework are contained in this directory.
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 04/29/17
 
 **USER INSTRUCTIONS:** 
 

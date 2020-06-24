@@ -1,11 +1,11 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** HW 7 LOOP
 
 **HOMEWORK DESCRIPTION:**
 
 ...
-All files related to this project are contained in this directory.
+All files related to this homework are contained in this directory.
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 03/28/2017
 
 **USER INSTRUCTIONS:** 
 

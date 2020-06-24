@@ -20,6 +20,8 @@ Creates a graphical user interface that displays the temperatures of two thermos
 
 3) Use JOptionPane to prompt the user for the minimum and maximum temperature for the first heater and use those values to create a new Heater object named heater2 and display heater2's temperature using heater2's getTemperature method, which after this heater2's warmer method should be called and after that JOptionPane should be used to display heater2's new temperature. After that heater1 and heater2 should be compared to each other using the equals method contained in one the heaters and a message should be displayed to the user as to whether or not the two heaters have identical values stored in them.
 
+All files related to this project are contained in this directory.
+
 **VERSION or DATE:** 03/13/17
 
 **USER INSTRUCTIONS:** 

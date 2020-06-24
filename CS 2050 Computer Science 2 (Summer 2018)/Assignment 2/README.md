@@ -1,12 +1,12 @@
-**ASSIGNMENT TITLE:** ....
+**ASSIGNMENT TITLE:** Assignment 2
 
 **ASSIGNMENT DESCRIPTION:**
 
 .....
 
-All files related to this project are contained in this directory.
+All files related to this assignment are contained in this directory.
 
-**VERSION or DATE:** .....
+**VERSION or DATE:** 06/14/18
 
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).

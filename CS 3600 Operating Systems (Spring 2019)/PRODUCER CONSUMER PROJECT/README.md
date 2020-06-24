@@ -15,8 +15,8 @@ All files related to this project are contained in this directory.
 
 Example:
 
-java HeaterApplication.java
-javac HeaterApplication
+javac HeaterApplication.java
+java HeaterApplication
 
 **PROBLEMS THAT NEED ADDRESSING:** None
 

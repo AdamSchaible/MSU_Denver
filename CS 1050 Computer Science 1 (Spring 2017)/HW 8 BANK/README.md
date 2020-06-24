@@ -15,8 +15,8 @@ All files related to this project are contained in this directory.
 
 Example:
 
-java HeaterApplication.java
-javac HeaterApplication
+javac HeaterApplication.java
+java HeaterApplication
 
 **PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this homework.
 

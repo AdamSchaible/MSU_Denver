@@ -30,8 +30,8 @@ Creates a graphical user interface that displays the temperatures of two thermos
 
 Example:
 
-java HeaterApplication.java
-javac HeaterApplication
+javac HeaterApplication.java
+java HeaterApplication
 
 **PROBLEMS THAT NEED ADDRESSING:** This program allows for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this project.
 

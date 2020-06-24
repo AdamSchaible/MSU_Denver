@@ -1,11 +1,11 @@
-**HOMEWORK TITLE:** ...
+**HOMEWORK TITLE:** HW 6 SALARY PROJECT
 
 **HOMEWORK DESCRIPTION:**
+To write a java program that calculates a workers salary in dollars. The user enters the number of days that they worked and it is assumed that the worker earns one penny for the first day and for each following day that days wage is double the previous day. For each day display the current wage and the total accumulation of money earned by the worker. Use integers for the days worked, daily salary and total pay.
 
-...
 All files related to this project are contained in this directory.
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 04/02/17
 
 **USER INSTRUCTIONS:** 
 
@@ -15,9 +15,12 @@ All files related to this project are contained in this directory.
 
 Example:
 
-java HeaterApplication.java
-javac HeaterApplication
+javac SalaryCalculator.java
+java SalaryCalculator
 
-**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this project.
+**PROBLEMS THAT NEED ADDRESSING:** 
+1) With no restrictions on total pay in the project requirements the total pay can easily exceed the maximum value of an integer.
+
+2) There are no safeguards that prevent the user from entering something other than an integer, which the entering of something other than an integer would generate an error and crash the program. 
 
 **AUTHOR:** Adam Schaible

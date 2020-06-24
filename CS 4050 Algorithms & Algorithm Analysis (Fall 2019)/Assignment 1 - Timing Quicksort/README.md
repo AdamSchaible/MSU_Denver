@@ -1,13 +1,14 @@
-**ASSIGNMENT TITLE:** ...
+**ASSIGNMENT TITLE:** Assignment 1 - Timing Quicksort
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+Involved using Java to time various methods of sorting to see which method was the fastest one. The methods that were timed included Quicksort, QuickSort with a median of 3, Hoares, Lomato and Insertion Sort with a possibility of various region sizes.
+
 All files related to this assignment are contained in this directory.
 
-The full assignment description and requirements are in...
+The full assignment description and requirements are in [Assignment 1 Requirements.txt](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%201%20-%20Timing%20Quicksort/Assignment%201%20Requirements.txt).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 09/21/2019
 
 **USER INSTRUCTIONS:** 
 

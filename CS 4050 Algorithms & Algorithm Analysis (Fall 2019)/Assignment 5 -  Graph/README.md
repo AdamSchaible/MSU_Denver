@@ -1,13 +1,17 @@
-**ASSIGNMENT TITLE:** ...
+**ASSIGNMENT TITLE:** Assignment 5 Graph
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+"1. build a directed weighted graph that represents exchange rates. Each node of the graph represents a currency (such as dollars) and each directed weighted edge represents the exchange rate (the edge weight is what you multiply the from-node by to get the corresponding amount of currency in the to-node). 
+2. find sequences of trades that will result in a profit. Print out the trades and the resulting profit if $1000 is invested (or 1000 of the currency that you start with)." *- quoted from full project description thats below*
+
+The full project assignment and requirements are in [Assignment 5 Requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%205%20-%20%20Graph/Assignment%205%20Requirements.pdf).
+
 All files related to this assignment are contained in this directory.
 
-The full project assignment and requirements are in...
 
-**VERSION or DATE:** ….
+
+**VERSION or DATE:** 11/27/2019
 
 **USER INSTRUCTIONS:** 
 

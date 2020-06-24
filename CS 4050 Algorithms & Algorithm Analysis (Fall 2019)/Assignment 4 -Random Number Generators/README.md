@@ -1,13 +1,14 @@
-**ASSIGNMENT TITLE:** ...
+**ASSIGNMENT TITLE:** Assignment 4 - Random Number Generators
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+This assignment consisted of comparing two different random number generators of my own choice. One of the random numbers had to be from a programming language of my choice and the other random number generator I had to make my myself. My random number generator made numbers through taking the modulus of a fixed number of bytes from a sound file.
+
 All files related to this assignment are contained in this directory.
 
-The full assignment description and requirements are in...
+The full assignment description and requirements are in [Assignment 4 Requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%204%20-Random%20Number%20Generators/Assignment%204%20Requirements.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 11/16/2019
 
 **USER INSTRUCTIONS:** 
 

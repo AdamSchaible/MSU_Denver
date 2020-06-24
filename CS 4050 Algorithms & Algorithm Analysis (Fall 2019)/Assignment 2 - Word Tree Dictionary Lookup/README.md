@@ -1,13 +1,13 @@
-**ASSIGNMENT TITLE:** ...
+**ASSIGNMENT TITLE:** Assignment 2 - Word Tree Dictionary Lookup
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+This assignment involved creating a tree structure in a Java program that held all the words of a dictionary. When the program ran it would take in the keystrokes from the user and guess what words the user was typing though navigating the dictionary tree each time a new letter was typed.
 All files related to this assignment are contained in this directory.
 
-The full assignment description and requirements are in...
+The full assignment description and requirements are in [Assignment 2 Requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS 4050 Algorithms %26 Algorithm Analysis (Fall 2019)/Assignment 2 - Word Tree Dictionary Lookup/Assignment 2 Requirements.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 09/21/2019
 
 **USER INSTRUCTIONS:** 
 

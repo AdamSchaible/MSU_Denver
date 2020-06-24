@@ -1,13 +1,24 @@
-**ASSIGNMENT TITLE:** ...
+**ASSIGNMENT TITLE:** Assignment 3 - Probablistic Algorithms
 
 **ASSIGNMENT DESCRIPTION:**
 
-...
+This assignment consisted of writing up the following programs
+
+1) A program to compute Π (Pi) probablistically using a circle contained inside a square and having darts thrown within that square.
+
+2) A program that uses the generation of random numbers to see if a number is a prime.
+
+3) A program that would search an array of a 1000 members and compute on average how many random guesses it would take to find a member in that array without knowing that members exact location in the array.
+
+4) A program that can do Monte Carlo Intregration through using dart throwing, by taking the mean of values at random locations or by using the trapezoid method.
+
+5) Solving the [8 queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle)  by having a different numbers of queens initially glued to the chessboard and solving the placing of the remaining queens to the chessboard though backtracking and timing how long the whole process takes. The times were compared to see what number of queens initially glued to the chessboard allowed for the 8 queens problem to be solved the quickest.
+
 All files related to this assignment are contained in this directory.
 
-The full assignment description and requirements are in...
+The full assignment description and requirements are in [Assignment 3 requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%203%20-%20Probabilistic%20Algorithms/Assignment%203%20requirements.pdf).
 
-**VERSION or DATE:** ….
+**VERSION or DATE:** 10/24/2019
 
 **USER INSTRUCTIONS:** 
 

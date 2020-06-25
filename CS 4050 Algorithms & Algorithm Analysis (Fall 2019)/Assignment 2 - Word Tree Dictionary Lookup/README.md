@@ -3,6 +3,7 @@
 **ASSIGNMENT DESCRIPTION:**
 
 This assignment involved creating a tree structure in a Java program that held all the words of a dictionary. When the program ran it would take in the keystrokes from the user and guess what words the user was typing though navigating the dictionary tree each time a new letter was typed.
+
 All files related to this assignment are contained in this directory.
 
 The full assignment description and requirements are in [Assignment 2 Requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS 4050 Algorithms %26 Algorithm Analysis (Fall 2019)/Assignment 2 - Word Tree Dictionary Lookup/Assignment 2 Requirements.pdf).
@@ -16,9 +17,8 @@ The full assignment description and requirements are in [Assignment 2 Requiremen
 2) Run the following commands in your terminal or command line in the directory containing the Java files to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
 Example:
-
-javac HeaterApplication.java
-java HeaterApplication
+javac DictionaryGUI.java
+java DictionaryGUI
 
 **PROBLEMS THAT NEED ADDRESSING:** None
 

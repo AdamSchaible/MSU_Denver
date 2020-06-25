@@ -14,6 +14,6 @@ For more information about how the project was done see [PL cover letter - PROLO
 **USER INSTRUCTIONS:** 
 .....some commands to run it
 
-**PROBLEMS THAT NEED ADDRESSING:** None
+**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

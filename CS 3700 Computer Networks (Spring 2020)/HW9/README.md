@@ -8,15 +8,20 @@ All files related to this homework are contained in this directory.
 
 The full homework description and requirements are in [HW9_CS3700.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203700%20Computer%20Networks%20(Spring%202020)/HW9/HW9_CS3700.pdf).
 
+Within this directory is a folder named tests that contains the topo.txt files that I made to test the test the homework9.py to see how it would respond to topo.txt files with various errors.
+
 **VERSION or DATE:** 04/25/2020
 
 **USER INSTRUCTIONS:** 
+
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
-2) First open your terminal or command line to the folder containing the python program. In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
+2) First open your terminal or command line to the folder containing homework9.py and topo.txt, which is the same directory as this README file and run this command: 
 
-To run this program use the command:
-python3 homework9.py
-**PROBLEMS THAT NEED ADDRESSING:** None
+==python3 homework9.py==
+
+*Note: If you need help running this command read*  ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
+
+**PROBLEMS THAT NEED ADDRESSING:** ---
 
 **AUTHOR:** Adam Schaible

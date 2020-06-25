@@ -30,6 +30,6 @@ On the client side run the following commands in your terminal or command line i
 javac UDPClient.java
 java UDPClient
 
-**PROBLEMS THAT NEED ADDRESSING:** None
+**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

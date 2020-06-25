@@ -1,5 +1,0 @@
-Good job on implementing input/output and some encryption/decryption calculation.  Below are the problems observed during testing.
-
-(1) (-18 points) R1, L2, and R2 calculated by the Encryption program are incorrect.
-
-(2) (-18 points)  L1, L0, and R0 calculated by the Decryption program are incorrect.

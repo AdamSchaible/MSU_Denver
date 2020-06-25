@@ -28,6 +28,6 @@ On the client side run the following commands in your terminal or command line i
 javac TCPClient.java
 java TCPClient
 
-**PROBLEMS THAT NEED ADDRESSING:** None
+**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

@@ -18,6 +18,8 @@ All files related to this assignment are contained in this directory.
 
 The full assignment description and requirements are in [Assignment 3 requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%203%20-%20Probabilistic%20Algorithms/Assignment%203%20requirements.pdf).
 
+To find out the results of running this program see [Assignment 3 Write Up.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%203%20-%20Probabilistic%20Algorithms/Assignment%203%20Write%20Up.docx).
+
 **VERSION or DATE:** 10/24/2019
 
 **USER INSTRUCTIONS:** 

@@ -30,6 +30,7 @@ All files related to this project are contained in this directory.
 
 The full project description and requirements are in [Lisp specs.doc](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%202/Lisp%20specs.doc).
 
+For more information about how the project was done see [PL cover letter.doc](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%202/PL%20cover%20letter.doc).
 ....
 
 **VERSION or DATE:** 03/06/19

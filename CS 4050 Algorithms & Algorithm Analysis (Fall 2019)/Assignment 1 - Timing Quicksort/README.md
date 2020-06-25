@@ -8,6 +8,8 @@ All files related to this assignment are contained in this directory.
 
 The full assignment description and requirements are in [Assignment 1 Requirements.txt](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%201%20-%20Timing%20Quicksort/Assignment%201%20Requirements.txt).
 
+To find out the results of running this program see [Assignment 1 Write Up.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%201%20-%20Timing%20Quicksort/Assignment%201%20Write%20Up.docx).
+
 **VERSION or DATE:** 09/21/2019
 
 **USER INSTRUCTIONS:** 

@@ -8,6 +8,8 @@ All files related to this assignment are contained in this directory.
 
 The full assignment description and requirements are in [Assignment 4 Requirements.pdf](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%204%20-Random%20Number%20Generators/Assignment%204%20Requirements.pdf).
 
+To find out the results of running this program see [Assignment 4 Write Up.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%204%20-Random%20Number%20Generators/Assignment%204%20Write%20Up.docx).
+
 **VERSION or DATE:** 11/16/2019
 
 **USER INSTRUCTIONS:** 

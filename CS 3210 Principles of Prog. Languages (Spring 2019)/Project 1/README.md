@@ -8,6 +8,8 @@ All files related to this project are contained in this directory.
 
 The full project description and requirements are in [MAL project specs.doc](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%201/MAL%20project%20specs.doc).
 
+For more detail about how the project was done see the [PL cover letter.doc](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%201/PL%20cover%20letter.doc).
+
 **VERSION or DATE:** 2/21/2019
 
 **USER INSTRUCTIONS:** 

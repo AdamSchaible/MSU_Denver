@@ -13,10 +13,8 @@ All files related to this homework are contained in this directory.
 
 2) Run the following commands in your terminal or command line in the directory containing the Java files to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
-Example:
-
-javac HeaterApplication.java
-java HeaterApplication
+javac AccountApplication.java
+java AccountApplication
 
 **PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this homework.
 

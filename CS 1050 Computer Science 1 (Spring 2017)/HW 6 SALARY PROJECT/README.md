@@ -13,8 +13,6 @@ All files related to this project are contained in this directory.
 
 2) Run the following commands in your terminal or command line in the directory containing the Java files to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
-Example:
-
 javac SalaryCalculator.java
 java SalaryCalculator
 

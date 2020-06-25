@@ -8,7 +8,7 @@ The project’s theme centers around gold miners as the producers and the custom
 
 All files related to this project are contained in this directory.
 
-For additional information about how the project was made see [Cover Letter.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203600%20Operating%20Systems%20(Spring%202019)/PRODUCER%20CONSUMER%20PROJECT/Cover%20Letter.docx).
+For additional information about how the project was made see [Cover Letter.docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203600%20Operating%20Systems%20(Spring%202019)/PRODUCER%20CONSUMER%20PROJECT/Cover%20Letter.docx) as well as [The Gold Mine.pptx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203600%20Operating%20Systems%20(Spring%202019)/PRODUCER%20CONSUMER%20PROJECT/The%20Gold%20Mine.pptx).
 
 **VERSION or DATE:** 04/23/2019
 
@@ -16,13 +16,18 @@ For additional information about how the project was made see [Cover Letter.docx
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2) Run the following commands in your terminal or command line in the directory containing the Java files to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
+2) Within this directory (PRODUCER CONSUMER PROJECT) open up the src folder and within the src folder go to the Server folder and open that folder up in either a terminal or command line and run the following commands to start the server:
 
-Example:
+javac Main.java
+java Main
 
-javac HeaterApplication.java
-java HeaterApplication
+Go back to the PRODUCER CONSUMER PROJECT directory and within this directory open up the src folder and within the src folder go to the Client folder and open that folder up in either a separate terminal or command line and run the following commands to start the client side:
+
+javac Main.java
+java Main
+ 
+**IF YOU NEED HELP RUNNING JAVA COMMANDS GO TO:**  [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
 **PROBLEMS THAT NEED ADDRESSING:** None
 
-**AUTHOR:** Adam Schaible
+**AUTHORS:** Adam Schaible, Krzsztof Rabka

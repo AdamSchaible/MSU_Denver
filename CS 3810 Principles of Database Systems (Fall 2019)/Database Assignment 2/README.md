@@ -10,6 +10,8 @@ The full assignment description and requirements are in [Dba02.docx](https://git
 
 **VERSION or DATE:** 11/22/2019
 
+**PROBLEMS THAT NEED ADDRESSING:** ---
+
 **USER INSTRUCTIONS:** !!ADD MORE FOR SQL
 .....
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -20,7 +22,5 @@ Example:
 
 javac HeaterApplication.java
 java HeaterApplication
-
-**PROBLEMS THAT NEED ADDRESSING:** ---
 
 **AUTHOR:** Adam Schaible

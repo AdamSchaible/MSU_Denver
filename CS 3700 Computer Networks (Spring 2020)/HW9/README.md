@@ -12,6 +12,8 @@ Within this directory is a folder named tests that contains the topo.txt files t
 
 **VERSION or DATE:** 04/25/2020
 
+**PROBLEMS THAT NEED ADDRESSING:** ---
+
 **USER INSTRUCTIONS:** 
 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
@@ -21,7 +23,5 @@ Within this directory is a folder named tests that contains the topo.txt files t
 ==python3 homework9.py==
 
 *Note: If you need help running this command read*  ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/) .
-
-**PROBLEMS THAT NEED ADDRESSING:** ---
 
 **AUTHOR:** Adam Schaible

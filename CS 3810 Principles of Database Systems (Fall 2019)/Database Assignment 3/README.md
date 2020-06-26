@@ -12,9 +12,9 @@ The full assignment description and requirements are in [Dba03.docx](https://git
 
 **VERSION or DATE:** 11/22/2019
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** 
 .....some commands to run it
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

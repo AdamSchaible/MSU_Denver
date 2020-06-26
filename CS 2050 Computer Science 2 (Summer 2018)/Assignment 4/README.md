@@ -8,6 +8,8 @@ All files related to this assignment are contained in this directory.
 
 **VERSION or DATE:** 07/03/2018
 
+**PROBLEMS THAT NEED ADDRESSING:** ADD ANY UNIT TEST FAILURES
+
 **USER INSTRUCTIONS:** 
 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
@@ -16,7 +18,5 @@ All files related to this assignment are contained in this directory.
 
 To run this program use the command:
 python3 assignment4.py
-
-**PROBLEMS THAT NEED ADDRESSING:** ADD ANY UNIT TEST FAILURES
 
 **AUTHOR:** Adam Schaible

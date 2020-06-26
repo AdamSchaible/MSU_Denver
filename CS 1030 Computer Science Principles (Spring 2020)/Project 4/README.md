@@ -24,6 +24,8 @@ The file [AdamSchaible 03 04 03 Output.txt](https://github.com/AdamSchaible/MSU_
 
 **VERSION or DATE:** 4/10/2020
 
+**PROBLEMS THAT NEED ADDRESSING:** None
+
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
@@ -37,7 +39,5 @@ python3 AdamSchaible_03_04_02.py
 
 To run the third program use the command:
 python3 AdamSchaible_03_04_03.py
-
-**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

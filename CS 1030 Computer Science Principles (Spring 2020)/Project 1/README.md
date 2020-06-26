@@ -16,6 +16,8 @@ All files related to this project are contained in this directory.
 
 **VERSION or DATE:** 2/13/2020
 
+**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this project.
+
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
@@ -29,7 +31,5 @@ python3 AdamSchaible_03_01_02.py
 
 To run the third program use the command:
 python3 AdamSchaible_03_01_03.py
-
-**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this project.
 
 **AUTHOR:** Adam Schaible

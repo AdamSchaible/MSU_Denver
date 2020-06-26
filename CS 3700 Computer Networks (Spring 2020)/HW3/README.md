@@ -12,6 +12,8 @@ Here are some results from running the client program: [testResultsClient.txt](h
 
 **VERSION or DATE:** 02/23/2020
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** 
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -29,7 +31,5 @@ On the client side run the following commands in your terminal or command line i
 
 javac TCPClient.java
 java TCPClient
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

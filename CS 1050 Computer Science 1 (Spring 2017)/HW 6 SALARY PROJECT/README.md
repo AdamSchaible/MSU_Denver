@@ -7,6 +7,11 @@ All files related to this project are contained in this directory.
 
 **VERSION or DATE:** 04/02/17
 
+**PROBLEMS THAT NEED ADDRESSING:** 
+1) With no restrictions on total pay in the project requirements the total pay can easily exceed the maximum value of an integer.
+
+2) There are no safeguards that prevent the user from entering something other than an integer, which the entering of something other than an integer would generate an error and crash the program. 
+
 **USER INSTRUCTIONS:** 
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -15,10 +20,5 @@ All files related to this project are contained in this directory.
 
 javac SalaryCalculator.java
 java SalaryCalculator
-
-**PROBLEMS THAT NEED ADDRESSING:** 
-1) With no restrictions on total pay in the project requirements the total pay can easily exceed the maximum value of an integer.
-
-2) There are no safeguards that prevent the user from entering something other than an integer, which the entering of something other than an integer would generate an error and crash the program. 
 
 **AUTHOR:** Adam Schaible

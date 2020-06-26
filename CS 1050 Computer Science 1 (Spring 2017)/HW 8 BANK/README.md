@@ -7,6 +7,8 @@ All files related to this homework are contained in this directory.
 
 **VERSION or DATE:** 04/29/17
 
+**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this homework.
+
 **USER INSTRUCTIONS:** 
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -15,7 +17,5 @@ All files related to this homework are contained in this directory.
 
 javac AccountApplication.java
 java AccountApplication
-
-**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this homework.
 
 **AUTHOR:** Adam Schaible

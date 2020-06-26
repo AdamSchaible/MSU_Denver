@@ -12,6 +12,8 @@ For more detail about how the project was done see the [PL cover letter.doc](htt
 
 **VERSION or DATE:** 2/21/2019
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
@@ -20,7 +22,5 @@ For more detail about how the project was done see the [PL cover letter.doc](htt
 To run this program use the command:
 python3 "CS3210 ASSIGNMENT 1 MAL.py"
 ...
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

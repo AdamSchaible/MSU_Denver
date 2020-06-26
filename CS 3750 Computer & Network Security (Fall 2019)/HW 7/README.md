@@ -12,17 +12,15 @@ The folder named "HW7 test files" in this directory contains files that I create
 
 **VERSION or DATE:** 11/12/2019
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** 
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2) Run the following commands in your terminal or command line in the directory containing this README file to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
-Example:
-
-javac HeaterApplication.java
-java HeaterApplication
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
+javac Nist.java
+java Nist
 
 **AUTHOR:** Adam Schaible

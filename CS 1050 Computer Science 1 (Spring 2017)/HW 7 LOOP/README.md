@@ -7,6 +7,8 @@ All files related to this homework are contained in this directory.
 
 **VERSION or DATE:** 03/28/2017
 
+**PROBLEMS THAT NEED ADDRESSING:** ------
+
 **USER INSTRUCTIONS:** 
 
 1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -16,6 +18,6 @@ All files related to this homework are contained in this directory.
 javac LOOP.java
 java LOOP
 
-**PROBLEMS THAT NEED ADDRESSING:** ------
+
 
 **AUTHOR:** Adam Schaible

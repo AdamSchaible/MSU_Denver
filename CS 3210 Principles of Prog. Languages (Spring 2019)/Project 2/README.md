@@ -35,9 +35,9 @@ For more information about how the project was done see [PL cover letter.doc](ht
 
 **VERSION or DATE:** 03/06/19
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** 
 .....some commands to run it
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

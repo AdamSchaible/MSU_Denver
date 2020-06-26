@@ -10,6 +10,8 @@ The full assignment description and requirements are in [Dba 04 (Diseases).docx]
 
 **VERSION or DATE:** 12/06/2019
 
+**PROBLEMS THAT NEED ADDRESSING:** ----
+
 **USER INSTRUCTIONS:** +MORE DESCRIPTION FOR Database use
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
@@ -17,7 +19,5 @@ The full assignment description and requirements are in [Dba 04 (Diseases).docx]
 
 To run this program use the command:
 python3 labeling.py
-
-**PROBLEMS THAT NEED ADDRESSING:** ----
 
 **AUTHOR:** Adam Schaible

@@ -18,6 +18,8 @@ The file [text output for AdamSchaible_03_02_02.txt](https://github.com/AdamScha
 
 **VERSION or DATE:** 3/1/2020
 
+**PROBLEMS THAT NEED ADDRESSING:** None
+
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
@@ -28,7 +30,5 @@ python3 AdamSchaible_03_02_01.py
 
 To run the second program use the command:
 python3 AdamSchaible_03_02_02.py
-
-**PROBLEMS THAT NEED ADDRESSING:** None
 
 **AUTHOR:** Adam Schaible

@@ -1,8 +1,8 @@
 **HOMEWORK TITLE:** HW 8 BANK
 
 **HOMEWORK DESCRIPTION:**
+Write a java program named [AccountApplication.java](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%208%20BANK/AccountApplication.java). Which allows for the user to create a checking, savings, money market or certificate of deposit account and perform transactions on that account as well as get information on both account value and transaction history. The [AccountApplication.java](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%208%20BANK/AccountApplication.java) should also use helper programs named [Account.java](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%208%20BANK/Account.java) and [Transaction.java](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%208%20BANK/Transaction.java).
 
-...
 All files related to this homework are contained in this directory.
 
 **VERSION or DATE:** 04/29/17

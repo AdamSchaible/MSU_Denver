@@ -2,7 +2,9 @@
 
 **ASSIGNMENT DESCRIPTION:**
 
-.....
+Is about creating a linked list where each of the nodes contained numeric values that could be accessed, modified as well as nodes could be pushed onto or popped off of the linked list. The assignment included writing various unit tests to ensure that the linked list was working properly.
+
+The program name for this assignment is [assignment1 CS2050 Adam Schaible.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%201/assignment1%20CS2050%20Adam%20Schaible.py) and the requirements for this assignment are listed as comments inside this file. To view the requirements for this program open the Python file in a text editor of your choice.
 
 All files related to this assignment are contained in this directory.
 

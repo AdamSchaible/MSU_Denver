@@ -1,8 +1,8 @@
 **HOMEWORK TITLE:** HW 7 LOOP
 
 **HOMEWORK DESCRIPTION:**
+To create a program named  [LOOP.java](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%201050%20Computer%20Science%201%20(Spring%202017)/HW%207%20LOOP/LOOP.java) where the user enters in a line and a character in which they want to know how many times that character is present in the string. After the program has counted the number of times that the character appeared in the line it returns that value to the user.
 
-...
 All files related to this homework are contained in this directory.
 
 **VERSION or DATE:** 03/28/2017
@@ -17,7 +17,5 @@ All files related to this homework are contained in this directory.
 
 javac LOOP.java
 java LOOP
-
-
 
 **AUTHOR:** Adam Schaible

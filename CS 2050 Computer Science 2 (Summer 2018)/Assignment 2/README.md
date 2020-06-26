@@ -2,7 +2,9 @@
 
 **ASSIGNMENT DESCRIPTION:**
 
-.....
+This program is about implementing a dictionary using chaining where every key has a hash and unit tests were written and used to ensure that it worked.
+
+The program name for this assignment is [assignment2.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%202/assignment2.py) and the requirements for this assignment are listed as comments inside this file. To view the requirements for this program open the Python file in a text editor of your choice.
 
 All files related to this assignment are contained in this directory.
 

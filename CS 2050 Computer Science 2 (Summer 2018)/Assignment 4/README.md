@@ -2,7 +2,9 @@
 
 **ASSIGNMENT DESCRIPTION:**
 
-.....
+To create a Python program that creates and navigates a binary tree that has written unit tests to ensure that the binary tree has both been properly created as well as to ensure that the navigation of the binary tree to find values is properly occuring.
+
+The program name for this assignment is [assignment4.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%204/assignment4.py) and addititional requirements for this assignment are listed as comments inside this file. To view the additional requirements for this program open the Python file in a text editor of your choice.
 
 All files related to this assignment are contained in this directory.
 

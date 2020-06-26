@@ -2,7 +2,19 @@
 
 **ASSIGNMENT DESCRIPTION:**
 
-.....
+Is about writing a Python program with a recursive method that takes:  
+
+1) A string to find 
+
+2) A string to replace the found string with
+
+3) An initial string. 
+
+4) Returns the initial string with all the found strings replaced with the replacement string. Where loops and the built-in string methods are not used with the exception of comparison, length, and slicing.
+
+5) For the resursive method write associated unit tests for it to ensure the method works methods accuracy.
+
+The program name for this assignment is [assignment3 CS2050 Adam Schaible.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%203/assignment3%20CS2050%20Adam%20Schaible.py).
 
 All files related to this assignment are contained in this directory.
 

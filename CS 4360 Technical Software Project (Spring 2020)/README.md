@@ -25,7 +25,4 @@
 
 **PROBLEMS THAT NEED ADDRESSING:** None
 
-**USER INSTRUCTIONS:** 
-.....some commands to run it....open each repository up and use Android Studio to install it on a Android device that has Bluetooth
-
 **AUTHORS OF PROJECT:** Adam Schaible, Darey Lee, Ronald Aparicio and Luis Arce

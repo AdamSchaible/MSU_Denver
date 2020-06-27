@@ -12,15 +12,15 @@ The full assignment description and requirements are in [Dba02.docx](https://git
 
 **PROBLEMS THAT NEED ADDRESSING:** ---
 
-**USER INSTRUCTIONS:** !!ADD MORE FOR SQL
-.....
-1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
+**USER INSTRUCTIONS:**
 
-2) Run the following commands in your terminal or command line in the directory containing this README file to run the program and if you need additional help doing this see [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 
-Example:
+If MySQL is not installed then install it at https://www.mysql.com/ and to run [ipps.sql](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%202/ipps.sql) by [Running the SQL file from the terminal](https://www.tutorialspoint.com/run-sql-file-in-mysql-database-from-terminal).
 
-javac HeaterApplication.java
-java HeaterApplication
+Install Java Development Kit (JDK) for version 8. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+Install IntelliJ IDEA though their [website](https://www.jetbrains.com/idea/).
+
+Next, open up IntelliJ IDEA and create a Maven project that uses Java version 8 by using this [tutorial](https://www.jetbrains.com/help/idea/maven-support.html). After the project is created replace the pom.xml with the pom.xml in this directory and if you need help doing this see [Navigate to POM in Maven](https://www.jetbrains.com/help/idea/delegate-build-and-run-actions-to-maven.html). Copy the ipps.java and go to /src/main/java and right click on the java folder and click paste and say yes to refactoring, which this will add ipps.java to the Maven project. Then go to /src/main/java and right click on ipps.java and select run ipps.main() and then the ipps database will be populated.
 
 **AUTHOR:** Adam Schaible

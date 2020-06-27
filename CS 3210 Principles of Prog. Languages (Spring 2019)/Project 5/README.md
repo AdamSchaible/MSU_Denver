@@ -14,6 +14,7 @@ For more information about how the project was done see [PL cover letter - PROLO
 **PROBLEMS THAT NEED ADDRESSING:** ----
 
 **USER INSTRUCTIONS:** 
-.....some commands to run it
+
+If you do not allready have a Prolog intrepreter to run the Prolog programs you can install a Prolog intrepreter named SWI Prolog by going to https://www.swi-prolog.org/ and following the installation instructions. At the website there is also documentation about how to run Prolog programs using SWI Prolog so you can run the Prolog programs in this directory.
 
 **AUTHOR:** Adam Schaible

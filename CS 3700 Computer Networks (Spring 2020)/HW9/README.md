@@ -12,7 +12,7 @@ Within this directory is a folder named tests that contains the topo.txt files t
 
 **VERSION or DATE:** 04/25/2020
 
-**PROBLEMS THAT NEED ADDRESSING:** ---
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

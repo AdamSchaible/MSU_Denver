@@ -14,9 +14,9 @@ The full assignment description and requirements are in [Dba 04 (Diseases).docx]
 
 **USER INSTRUCTIONS:** 
 
-1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
+1) Install Python 3 if not already installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
-2) Install [Neo4J](https://neo4j.com/) if not allready installed.
+2) Install [Neo4J](https://neo4j.com/) if not already installed.
 
 3) Follow the instructions in [Dba 04 (Diseases).docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%204/Dba%2004%20(Diseases).docx).
 

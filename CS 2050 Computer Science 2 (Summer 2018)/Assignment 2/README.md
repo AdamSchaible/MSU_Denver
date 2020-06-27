@@ -13,7 +13,7 @@ All files related to this assignment are contained in this directory.
 **PROBLEMS THAT NEED ADDRESSING:** 2 out of 13 unit tests failed when running [assignment2.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%202/assignment2.py) and those tests were test_delete_item and test_half_dictionary_size.
 
 **USER INSTRUCTIONS:** 
-1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
+1) Install Python 3 if not already installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
 2) First open your terminal or command line in the directory containing this README file. In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/).
 

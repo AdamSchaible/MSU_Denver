@@ -10,7 +10,7 @@ The full assignment description and requirements are in [Dba01.docx](https://git
 
 **VERSION or DATE:** 11/22/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** Instructor noted that query g is not correct in [flowers.sql](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%201/flowers.sql).
 
 **USER INSTRUCTIONS:** 
 If MySQL is not installed then install it at https://www.mysql.com/ and to run [flowers.sql](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%201/flowers.sql) by [Running the SQL file from the terminal](https://www.tutorialspoint.com/run-sql-file-in-mysql-database-from-terminal).

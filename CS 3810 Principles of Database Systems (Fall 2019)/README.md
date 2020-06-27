@@ -12,7 +12,7 @@ In this assignment the data from the [Inpatient Prospective Payment System(IPPS)
 
 [Database Assignment 3:](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%203) 
 
-In this assignment several CSV files that contain healthcare data were provided. The SQL file ipps.sql that is provided for this assignment allready had the needed code to populate the CSV healthcare data into the appropriate tables and the assignment was essentially writing serveral queries for these populated tables within the ipps.sql file. 
+In this assignment several CSV files that contain healthcare data were provided. The SQL file ipps.sql that is provided for this assignment already had the needed code to populate the CSV healthcare data into the appropriate tables and the assignment was essentially writing several queries for these populated tables within the ipps.sql file. 
 
 Queries included what the total hospital discharges were, the provider's average charge for services covered by Medicare, the average charge for services by the provider and the average of Medicare payments to the provider.
 

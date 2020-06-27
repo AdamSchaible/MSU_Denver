@@ -4,7 +4,7 @@ This repository contains my programming assignments for the CS 4050 Algorithms &
 
 [Assignment 1 - Timing Quicksort](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%201%20-%20Timing%20Quicksort) :
 
-Involved using Java to time various methods of sorting to see which method was the fastest one. The methods that were timed included Quicksort, QuickSort with a median of 3, Hoares, Lomato and Insertion Sort with a possibility of various region sizes. The fastest one ended up being the median of 3. After the comparison was done I wrote up a paper about this. More information is available in the assignment 1 link.
+Involved using Java to time various methods of sorting to see which method was the fastest one. The methods that were timed included Quicksort, QuickSort with a median of 3, Hoares, Lomato and Insertion Sort with a possibility of various region sizes. The fastest one ended up being the median of 3. After the comparison was done I wrote up a paper about this. More information is available in the above assignment 1 link.
 
 [Assignment 2 - Word Tree Dictionary Lookup](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%202%20-%20Word%20Tree%20Dictionary%20Lookup) :
 

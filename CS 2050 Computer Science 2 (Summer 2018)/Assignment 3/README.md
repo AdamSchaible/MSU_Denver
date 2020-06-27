@@ -8,7 +8,7 @@ Is about writing a Python program with a recursive method that takes:
 
 2) A string to replace the found string with
 
-3) An initial string. 
+3) An initial string
 
 4) Returns the initial string with all the found strings replaced with the replacement string. Where loops and the built-in string methods are not used with the exception of comparison, length, and slicing.
 
@@ -24,7 +24,7 @@ All files related to this assignment are contained in this directory.
 
 **USER INSTRUCTIONS:** 
 
-1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
+1) Install Python 3 if not already installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
 2) First open your terminal or command line in the directory containing this README file. In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/).
 

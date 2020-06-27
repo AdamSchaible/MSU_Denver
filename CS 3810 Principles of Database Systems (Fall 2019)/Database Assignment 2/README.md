@@ -10,7 +10,7 @@ The full assignment description and requirements are in [Dba02.docx](https://git
 
 **VERSION or DATE:** 11/22/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ---
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:**
 

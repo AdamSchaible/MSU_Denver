@@ -16,7 +16,7 @@ Here is a sample of the output of running the client: [testResultsClient.txt](ht
 
 **USER INSTRUCTIONS:** 
 
-1) Install Java Development Kit (JDK) if you do not allready have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
+1) Install Java Development Kit (JDK) if you do not already have Java Development Kit 8 or a latter version allready installed on your computer. For installation help see [Oracle's Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2) If you are unfamiliar with running Java programs first go to [How to Compile and Run your First Java Program](https://beginnersbook.com/2013/05/first-java-program/).
 

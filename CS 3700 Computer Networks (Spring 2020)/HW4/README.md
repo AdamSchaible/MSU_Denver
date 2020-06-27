@@ -10,7 +10,7 @@ The full homework description and requirements are in [HW4_CS3700.pdf](https://g
 
 **VERSION or DATE:** 02/25/2020
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

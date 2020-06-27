@@ -20,7 +20,7 @@ All files related to this assignment are contained in this directory.
 
 **VERSION or DATE:** 06/21/18
 
-**PROBLEMS THAT NEED ADDRESSING:** ADD ANY UNIT TEST FAILURES
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

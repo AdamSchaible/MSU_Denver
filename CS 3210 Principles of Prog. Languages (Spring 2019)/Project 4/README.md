@@ -12,7 +12,7 @@ For more information about how the project was done see [PL cover letter.doc](ht
 
 **VERSION or DATE:** 04/17/19
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 To view PostScript image files open the files with a image viewer that is capable of displaying PostScript images such as [EPS Viewer](https://www.howtogeek.com/278138/how-to-open-an-eps-image-file-on-windows/). 

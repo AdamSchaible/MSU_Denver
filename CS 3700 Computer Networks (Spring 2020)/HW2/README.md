@@ -12,7 +12,7 @@ Here is a sample of the output of running the client: [testResultsClient.txt](ht
 
 **VERSION or DATE:** 2/9/2020
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

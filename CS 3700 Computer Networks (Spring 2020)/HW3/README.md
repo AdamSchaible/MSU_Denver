@@ -12,7 +12,7 @@ Here are some results from running the client program: [testResultsClient.txt](h
 
 **VERSION or DATE:** 02/23/2020
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

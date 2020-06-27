@@ -10,7 +10,7 @@ The full assignment description and requirements are in [Assignment C - Java imp
 
 **VERSION or DATE:** 04/08/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

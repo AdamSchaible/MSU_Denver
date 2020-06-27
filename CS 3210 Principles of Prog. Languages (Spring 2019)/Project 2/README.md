@@ -35,7 +35,7 @@ For more information about how the project was done see [PL cover letter.doc](ht
 
 **VERSION or DATE:** 03/06/19
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 If you do not allready have a LISP intrepreter to run LISP you can install a LISP intrepreter from [LISPWORKS](http://www.lispworks.com/) using their installation directions. The [LISPWORKS DOCUMENTATION](http://www.lispworks.com/documentation/index.html) will show you how to run LISP programs on LISPWORKS.

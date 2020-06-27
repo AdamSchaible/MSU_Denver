@@ -12,7 +12,7 @@ For more detail about how the project was done see the [PL cover letter.doc](htt
 
 **VERSION or DATE:** 2/21/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).

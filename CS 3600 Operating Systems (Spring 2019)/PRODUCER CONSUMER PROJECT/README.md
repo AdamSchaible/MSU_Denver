@@ -12,7 +12,7 @@ For additional information about how the project was made see [Cover Letter.docx
 
 **VERSION or DATE:** 04/23/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** None
+**PROBLEMS THAT NEED ADDRESSING:** There were a few times when I ran this simulation for the producer-consumer problem that the program would freeze up at close to the very end of the simulation, while most times when the simulation would not freeze up and would complete just fine. Need to do further testing to get an answer. 
 
 **USER INSTRUCTIONS:** 
 

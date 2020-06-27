@@ -10,7 +10,7 @@ All files related to this assignment are contained in this directory.
 
 **VERSION or DATE:** 06/14/18
 
-**PROBLEMS THAT NEED ADDRESSING:** ADD ANY UNIT TEST FAILURES
+**PROBLEMS THAT NEED ADDRESSING:** 2 out of 13 unit tests failed when running [assignment2.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%202/assignment2.py) and those tests were test_delete_item and test_half_dictionary_size.
 
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).

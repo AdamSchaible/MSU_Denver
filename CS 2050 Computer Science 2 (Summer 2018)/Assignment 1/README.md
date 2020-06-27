@@ -10,7 +10,7 @@ All files related to this assignment are contained in this directory.
 
 **VERSION or DATE:** 06/04/2018
 
-**PROBLEMS THAT NEED ADDRESSING:** ADD ANY UNIT TEST FAILURES
+**PROBLEMS THAT NEED ADDRESSING:** 4 out of 22 unit tests did not pass when [assignment1 CS2050 Adam Schaible.py](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%202050%20Computer%20Science%202%20(Summer%202018)/Assignment%201/assignment1%20CS2050%20Adam%20Schaible.py) was run. Tests that did not pass were TestInitialization, TestPushFrontPopBack, TestRepr and TestStr. 
 
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).

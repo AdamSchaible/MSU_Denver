@@ -10,7 +10,7 @@ All files related to this homework are contained in this directory.
 
 **VERSION or DATE:** 05/12/2018
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

@@ -11,7 +11,7 @@ For more information about how the project was done see [PL cover letter - PROLO
 ...
 **VERSION or DATE:** 5/5/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
 **USER INSTRUCTIONS:** 
 

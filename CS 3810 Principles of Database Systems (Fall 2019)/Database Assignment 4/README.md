@@ -10,14 +10,14 @@ The full assignment description and requirements are in [Dba 04 (Diseases).docx]
 
 **VERSION or DATE:** 12/06/2019
 
-**PROBLEMS THAT NEED ADDRESSING:** ----
+**PROBLEMS THAT NEED ADDRESSING:** None
 
-**USER INSTRUCTIONS:** +MORE DESCRIPTION FOR Database use
+**USER INSTRUCTIONS:** 
+
 1) Install Python 3 if not allready installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).
 
-2) First open your terminal or command line in the directory containing this README file. In either your terminal or command line run the python program of your preference by typing python3 followed by the full name of the python program that you wish to run, e.g. python3 hello.py followed by enter. If you need assistance running python programs then go to ["How to Run Your Python Scripts"](https://realpython.com/run-python-scripts/).
+2) Install [Neo4J](https://neo4j.com/) if not allready installed.
 
-To run this program use the command:
-python3 labeling.py
+3) Follow the instructions in [Dba 04 (Diseases).docx](https://github.com/AdamSchaible/MSU_Denver/blob/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%204/Dba%2004%20(Diseases).docx).
 
-**AUTHOR:** Adam Schaible
+**AUTHORS:** Adam Schaible, Chris Rabka

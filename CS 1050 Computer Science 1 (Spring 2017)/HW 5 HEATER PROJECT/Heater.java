@@ -1,7 +1,7 @@
 /**
  * A program to change the temperature settings 
  * @Adam Schaible
- * @3/13/17
+ * @6/29/20
  */
 public class Heater
 {
@@ -22,7 +22,7 @@ public class Heater
         max = maximumTemperature;
         if(min >= max)
         {
-            throw new IllegalArgumentException("Min value must be less than max value");
+            throw new IllegalArgumentException("Min value must be less than max value, and the program will now crash!");
         }
                     
     }

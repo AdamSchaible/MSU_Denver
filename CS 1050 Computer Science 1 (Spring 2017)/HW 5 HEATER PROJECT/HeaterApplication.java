@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
  * HeaterApplication class adds Scanner/JOptionPane features to access and change values in the Heater class
  * 
  * @Adam Schaible
- * @version 3/13/17
+ * @version 6/29/20
  */
 public class HeaterApplication
 {
@@ -18,21 +18,131 @@ public class HeaterApplication
         Scanner ns = new Scanner(System.in);
         
         System.out.print("Input the minimum temperature for the 1st Heater: ");
-        int minimumTemperature = ns.nextInt();
-        
+        int minimumTemperature;
+        while(true)
+        {
+            String input = "";
+
+            try
+            {
+                input = ns.nextLine();
+
+                if (input.contains("."))
+                {
+                    System.out.println("You entered: " + input + ", which is not a integer");
+                    System.out.println("Please enter an integer");
+                    System.out.print("Input the minimum temperature for the 1st Heater: ");
+                }
+                else
+                {
+                    minimumTemperature = Integer.parseInt(input);
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+               System.out.println("You entered: " + input + ", which is not a integer");
+                System.out.println("Please enter an integer");
+                System.out.print("Input the minimum temperature for the 1st Heater: ");
+            }
+        }
+
         System.out.print("Input the maximum temperature for the 1st Heater: ");
-        int maximumTemperature = ns.nextInt();
+        int maximumTemperature;
+
+        while(true)
+        {
+            String input = "";
+
+            try
+            {
+                input = ns.nextLine();
+
+                if (input.contains("."))
+                {
+                    System.out.println("You entered: " + input + ", which is not a integer");
+                    System.out.println("Please enter an integer");
+                    System.out.print("Input the minimum temperature for the 1st Heater: ");
+                }
+                else
+                {
+                    maximumTemperature = Integer.parseInt(input);
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                System.out.println("You entered: " + input + ", which is not a integer");
+                System.out.println("Please enter an integer");
+                System.out.print("Input the minimum temperature for the 1st Heater: ");
+            }
+        }
         
         heater1 = new Heater(minimumTemperature, maximumTemperature);
         System.out.println("The Heater 1 temperature currently is: " + heater1.getTemperature());
         heater1.cooler();
         System.out.print("Current Heater 1 temperature after the attempt to decrease the temperature is: " + heater1.getTemperature());
-        
-        String minimumTemperatureText = JOptionPane.showInputDialog("Input the minimum Temperature for 2nd Heater: ");
-        int minimumTemperature2 = Integer.parseInt(minimumTemperatureText);
-        
-        String maximumTemperatureText = JOptionPane.showInputDialog("Input the Maximum Temperature for 2nd Heater: ");
-        int maximumTemperature2 = Integer.parseInt(maximumTemperatureText);
+
+        String minimumTemperatureText = "";
+        int minimumTemperature2;
+        while(true)
+        {
+            String input = "";
+
+            try
+            {
+                input = JOptionPane.showInputDialog("Input the minimum Temperature for 2nd Heater: ");
+
+                if (input.contains("."))
+                {
+                    JOptionPane.showMessageDialog(null, "You entered: '" + input +
+                            "' for the minimum Temperature for 2nd Heater, which is not a integer" +
+                            "\nClick Ok to enter in a correct value for the minimum Temperature for 2nd Heater");
+                }
+                else
+                {
+                    minimumTemperature2 = Integer.parseInt(input);
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                JOptionPane.showMessageDialog(null, "You entered: '" + input +
+                        "' for the minimum Temperature for 2nd Heater, which is not a integer" +
+                        "\nClick Ok to enter in a correct value for the minimum Temperature for 2nd Heater");
+            }
+        }
+
+
+        String maximumTemperatureText = "";
+        int maximumTemperature2;
+        while(true)
+        {
+            String input = "";
+
+            try
+            {
+                input = JOptionPane.showInputDialog("Input the maximum Temperature for 2nd Heater: ");
+
+                if (input.contains("."))
+                {
+                    JOptionPane.showMessageDialog(null, "You entered: '" + input +
+                            "' for the maximum Temperature for 2nd Heater, which is not a integer" +
+                            "\nClick Ok to enter in a correct value for the maximum Temperature for 2nd Heater");
+                }
+                else
+                {
+                    maximumTemperature2 = Integer.parseInt(input);
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                JOptionPane.showMessageDialog(null, "You entered: '" + input +
+                        "' for the maximum Temperature for 2nd Heater, which is not a integer" +
+                        "\nClick Ok to enter in a correct value for the maximum Temperature for 2nd Heater");
+            }
+        }
         
         heater2 = new Heater(minimumTemperature2, maximumTemperature2);
         JOptionPane.showMessageDialog(null, "The temperature currently is: " + heater2.getTemperature());

@@ -3,7 +3,7 @@ import java.util.Scanner;
  * Write a description of class SalaryCalculator here.
  * 
  * @Adam Schaible 
- * @04/02/17
+ * @06/29/20
  */
 public class SalaryCalculator
 {
@@ -14,17 +14,39 @@ public class SalaryCalculator
         int totalPay = 0; // in cents
         
         Scanner kb = new Scanner(System.in);
-        System.out.print("Enter the number of days that you worked to get a salary calculation: ");
-        daysWorked = kb.nextInt();
-        
-        while(daysWorked < 1)
+        while(true)
         {
-            System.out.println("");
-            System.out.println("Error: You did not enter in a positive number of days");
-            System.out.print("Please enter the number of days you worked here as a positive number: ");
-            daysWorked = kb.nextInt();
+            String input = "";
+
+            try
+            {
+                System.out.println("The program is capable of calculating salary from 1 to 31 days");
+                System.out.print("Enter the number of days that you worked to get a salary calculation: ");
+                input = kb.nextLine();
+
+                if (input.contains("."))
+                {
+                    System.out.println("\nYou entered: '" + input + "', which is not a valid number of days");
+                    System.out.println("Enter a whole number of 1 up to 31 for the number of days\n");
+                }
+
+                else
+                {
+                    daysWorked = Integer.parseInt(input);
+                    if ((daysWorked < 1) || (daysWorked > 31))
+                    {
+                        throw new Exception();
+                    }
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                System.out.println("\nYou entered: '" + input + "', which is not a valid number of days");
+                System.out.println("Enter a whole number of 1 up to 31 for the number of days\n");
+            }
         }
-        
+
         for(int count = 1;count <= daysWorked;count++)
         {
             totalPay = totalPay + dailySalary;

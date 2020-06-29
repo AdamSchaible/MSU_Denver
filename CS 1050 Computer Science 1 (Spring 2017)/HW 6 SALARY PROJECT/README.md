@@ -5,12 +5,13 @@ To write a java program that calculates a workers salary in dollars. The user en
 
 All files related to this project are contained in this directory.
 
-**VERSION or DATE:** 04/02/17
+**VERSION or DATE:** 06/29/20
 
-**PROBLEMS THAT NEED ADDRESSING:** 
-1) With no restrictions on total pay in the project requirements the total pay can easily exceed the maximum value of an integer.
+**PROBLEMS THAT NEED ADDRESSING:** None
 
-2) There are no safeguards that prevent the user from entering something other than an integer, which the entering of something other than an integer would generate an error and crash the program. 
+**NOTES:** 
+
+The current version is an upgrade from verion 04/02/17. Changes include setting the maximum number of days which one can calculate to 31 so that the salary does not exceed the maximum value of an integer and users are now prompted to re-enter the number of days if they do not enter a proper value, rather than letting the program crash.
 
 **USER INSTRUCTIONS:** 
 

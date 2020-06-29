@@ -16,7 +16,7 @@ All files related to this project are contained in this directory.
 
 **VERSION or DATE:** 2/13/2020
 
-**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. Having the program be resistant to these types of errors was not part of the requirements for this project.
+**PROBLEMS THAT NEED ADDRESSING:** These programs allow for users to enter in incorrect inputs, which would result in an unhandled exception. If I made the program resistant to these types of errors it would go against the project specifications.
 
 **USER INSTRUCTIONS:** 
 1) Install Python 3 if not already installed then follow the installation instructions from the article ["Install Python 3"](https://installpython3.com/).

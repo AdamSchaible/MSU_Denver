@@ -1,10 +1,15 @@
-import java.util.Scanner;
 /**
- * The main menu
- * 
+ * The AccountApplication simulates a bank, which allows you to do transactions and get records.
+ *
  * @author Adam Schaible
- * @version 4/29/17
+ * @version 6/29/20
  */
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
 public class AccountApplication
 {
     private static Scanner kb = new Scanner(System.in).useDelimiter("\\n");
@@ -14,13 +19,24 @@ public class AccountApplication
     public static void main(String[] args)
     {
         boolean selectInput = true;
-        String bankName = null;
+        String bankName;
         String typeOfAccount = null;
-        String accountNumber = null;
-        int initialBalance = -1;
-                
-        System.out.print("Enter the name of the bank: ");
-        bankName = kb.next();
+        String accountNumber;
+        long initialBalance = -1;
+
+        while(true)
+        {
+            System.out.print("Enter the name of the bank: ");
+            bankName = kb.next();
+            if (bankName.length() > 0)
+            {
+                break;
+            }
+            else
+            {
+                System.out.println("You entered nothing in for the name of the bank");
+            }
+        }
         
         do
         {
@@ -55,14 +71,46 @@ public class AccountApplication
                 break;
             }
         }while(typeOfAccount == null);
-        
-        System.out.print("\nPlease enter your account number: ");
-        accountNumber = kb.next();
-        
+
+        while(true)
+        {
+            System.out.println("Please enter your account number, digits only, no spaces: ");
+            accountNumber = kb.next();
+            String regex = "[0-9]+";
+
+            if (accountNumber.length() > 0 && accountNumber.matches(regex))
+            {
+                break;
+            }
+            else
+            {
+                System.out.println("You entered: '" + accountNumber + "' for your account number, which is not in the correct format");
+            }
+        }
+
         while(initialBalance < 0)
         {
-         System.out.print("\nEnter an initial balance for the account that is greater than 0: ");
-         int amount = kb.nextInt();
+            long amount;
+            while(true)
+            {
+                String input = "";
+
+                try
+                {
+                    System.out.print("\nEnter an initial balance for the account that is a whole number that is greater than zero: ");
+                    input = kb.next();
+                    if (input.contains("."))
+                    {
+                        throw new Exception();
+                    }
+                    amount = Long.parseLong(input);;
+                    break;
+                }
+                catch (Exception e)
+                {
+                    System.out.println("\nYou entered: '" + input + "', which is not a whole number");
+                }
+            }
          
          if(amount > 0)
          {
@@ -134,11 +182,26 @@ public class AccountApplication
     private static void add()
     {
         String transactionType = null;
-        int amountOfTransaction = 0;
+        long amountOfTransaction = 0;
         
-        System.out.print("\nEnter in the date of the transaction in the format of MM-DD-YYYY: ");
-        String transactionDate = kb.next();
-                
+        String transactionDate;
+
+        while(true)
+        {
+            System.out.print("\nEnter in the date of the transaction in the format of MM-DD-YYYY: ");
+            transactionDate = kb.next();
+
+            if (validateJavaDate(transactionDate))
+            {
+                break;
+            }
+            else
+            {
+                System.out.println("You Entered: '" + transactionDate +
+                        "' and this date is not in the correct format of  MM-DD-YYYY");
+            }
+        }
+
         do
         {
             System.out.println("\nSelect from the following transaction types \n");
@@ -175,8 +238,27 @@ public class AccountApplication
         
         while(amountOfTransaction == 0)
         {
-            System.out.print("Please Enter the amount of the transaction as a positive number: ");
-            int transactionAmount = kb.nextInt();
+            long transactionAmount;
+            while(true)
+            {
+                String input = "";
+                try
+                {
+                    System.out.print("Please Enter the amount of the transaction as a positive whole number: ");
+                    input = kb.next();
+                    if (input.contains("."))
+                    {
+                        throw new Exception();
+                    }
+                    transactionAmount = Long.parseLong(input);;
+                    break;
+                }
+                catch (Exception e)
+                {
+                    System.out.println("\nYou entered: '" + input + "', which is not a whole number");
+                }
+            }
+
             if(transactionAmount > 0)
             {
                 amountOfTransaction = transactionAmount;
@@ -190,23 +272,55 @@ public class AccountApplication
         Transaction transaction1 = new Transaction(transactionDate, transactionType, amountOfTransaction);
         boolean transactionAdded = account1.addTransaction(transaction1);
         
-        if(transactionAdded == false)
+        if(!transactionAdded)
         {
             System.out.println("ERROR - transaction was not able to be added to the list of transactions");
         }
-        
     }
-    
+
+    //method validateJavaDate derived from https://beginnersbook.com/2013/05/java-date-format-validation/
+    private static boolean validateJavaDate(String strDate)
+    {
+        /* Check if date is 'null' */
+        if (strDate.trim().equals(""))
+        {
+            return true;
+        }
+        /* Date is not 'null' */
+        else
+        {
+            /*
+             * Set preferred date format,
+             * For example MM-dd-yyyy, MM.dd.yyyy,dd.MM.yyyy etc.*/
+            SimpleDateFormat sdfrmt = new SimpleDateFormat("MM-dd-yyyy");
+            sdfrmt.setLenient(false);
+            /* Create Date object
+             * parse the string into date
+             */
+            try
+            {
+                Date javaDate = sdfrmt.parse(strDate);
+            }
+            /* Date format is invalid */
+            catch (ParseException e)
+            {
+                System.out.println(strDate+" is Invalid Date format");
+                return false;
+            }
+            /* Return true if date format is valid */
+            return true;
+        }
+    }
+
     private static void remove()
     {
-    System.out.print("Enter the number of the transaction number that you want to remove (1 or greater): ");
-    int removeNumber = kb.nextInt() - 1;
-    boolean remove = account1.removeTransaction(removeNumber);
-    if(remove == false)
-    {
-        System.out.println("Transaction #" + (removeNumber + 1) + "was not able to be removed from your account");
-    }
-    
+        System.out.print("Enter the number of the transaction number that you want to remove (1 or greater): ");
+        int removeNumber = kb.nextInt() - 1;
+        boolean remove = account1.removeTransaction(removeNumber);
+        if(!remove)
+        {
+            System.out.println("Transaction #" + (removeNumber + 1) + "was not able to be removed from your account");
+        }
     }
 
     private static void removeAllTransactions()

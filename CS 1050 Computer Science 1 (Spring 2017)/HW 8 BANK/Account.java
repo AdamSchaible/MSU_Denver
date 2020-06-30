@@ -4,17 +4,17 @@ import java.util.ArrayList;
  * Account class will keep track of the accounts
  * 
  * @author Adam Schaible
- * @version 4/29/17
+ * @version 6/29/20
  */
 public class Account
 {
     private String bankName;
     private String typeOfAccount;
     private String accountNumber;
-    private int initialBalance;
+    private long initialBalance;
     private ArrayList<Transaction> listOfTransactions;
     
-    public Account(String nameOfThebank, String accountType, String accountNumber, int initialBalance)
+    public Account(String nameOfThebank, String accountType, String accountNumber, long initialBalance)
     {
         bankName = nameOfThebank;
         typeOfAccount = accountType;
@@ -39,7 +39,7 @@ public class Account
         return accountNumber;
     }
     
-    public int getInitialBalance()
+    public long getInitialBalance()
     {
         return initialBalance;
     }
@@ -86,9 +86,9 @@ public class Account
      return accountInfo;
     }  
     
-    public int getCurrentBalance()
+    public long getCurrentBalance()
     {
-        int currentBalance = initialBalance;
+        long currentBalance = initialBalance;
         
         for(int i = 0;listOfTransactions.size() > i;i++)
         {

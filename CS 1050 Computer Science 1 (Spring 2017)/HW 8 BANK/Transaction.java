@@ -3,15 +3,15 @@
  * The Transaction class will be used to keep track of the transactions
  * 
  * @author Adam Schaible
- * @version 4/28/17
+ * @version 6/29/20
  */
 public class Transaction
 {
     private String dateOfTransaction;
     private String typeOfTransaction;
-    private int amountOfTransaction;
+    private long amountOfTransaction;
 
-    public Transaction(String transactionDate, String transactionType, int transactionAmount)
+    public Transaction(String transactionDate, String transactionType, long transactionAmount)
     {
         dateOfTransaction = transactionDate;
         typeOfTransaction = transactionType;
@@ -28,7 +28,7 @@ public class Transaction
         return typeOfTransaction;
     }
     
-    public int getTheAmountOfTheTransaction()
+    public long getTheAmountOfTheTransaction()
     {
         return amountOfTransaction;
     }

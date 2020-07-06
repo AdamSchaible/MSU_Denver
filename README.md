@@ -4,7 +4,7 @@ This repository contains my programming projects for classes that I took at MSU 
 
 Below is a list of the programming languages used and which classes, projects or homework they were used  in.
 ***
-**ARM:**
+**ARM Assembly:**
 
 &nbsp;&nbsp;&nbsp;&nbsp; CS 2400 Computer Organization 2 (Spring 2018)
 

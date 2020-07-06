@@ -6,8 +6,11 @@ Below is a list of the programming languages used and which classes, projects or
 ***
 **ARM:**
 &nbsp;&nbsp;&nbsp;&nbsp; CS 2400 Computer Organization 2 (Spring 2018)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Homework 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%202400%20Computer%20Organization%202%20(Spring%202018)/Homework%204) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Homework 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%202400%20Computer%20Organization%202%20(Spring%202018)/Homework%204) 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Homework 5](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%202400%20Computer%20Organization%202%20(Spring%202018)/Homework%205) 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Homework 6](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%202400%20Computer%20Organization%202%20(Spring%202018)/Homework%206) 
 
 **Cypher:**

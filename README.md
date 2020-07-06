@@ -74,7 +74,7 @@ Below is a list of the programming languages used and which classes, projects or
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Assignment 5 - Graph](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%205%20-%20%20Graph) 
 
-**Kotlin**
+**Kotlin:**
 
 &nbsp;&nbsp;&nbsp;&nbsp; CS 4360 Technical Software Project (Spring 2020)
 
@@ -132,7 +132,7 @@ Below is a list of the programming languages used and which classes, projects or
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Database Assignment 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%204) 
 
-**SQL**
+**SQL:**
 
 &nbsp;&nbsp;&nbsp;&nbsp; CS 3810 Principles of Database Systems (Fall 2019)
 

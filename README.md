@@ -75,26 +75,31 @@ Below is a list of the programming languages used and which classes, projects or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Assignment 5 - Graph](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%204050%20Algorithms%20%26%20Algorithm%20Analysis%20(Fall%202019)/Assignment%205%20-%20%20Graph) 
 
 **Kotlin**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 4360 Technical Software Project (Spring 2020)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Technical Software Project](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%204360%20Technical%20Software%20Project%20(Spring%202020)) 
 
 **LISP:**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 3210 Principles of Prog. Languages (Spring 2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Project 2](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%202)
 
 **PostScript:**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 3210 Principles of Prog. Languages (Spring 2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Project 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%204) 
 
 **Prolog:**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 3210 Principles of Prog. Languages (Spring 2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Project 5](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203210%20Principles%20of%20Prog.%20Languages%20(Spring%202019)/Project%205) 
 
 **Python:**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 1030 Computer Science Principles (Spring 2020)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Project 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%201030%20Computer%20Science%20Principles%20(Spring%202020)/Project%201) 
@@ -128,6 +133,7 @@ Below is a list of the programming languages used and which classes, projects or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Database Assignment 4](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%204) 
 
 **SQL**
+
 &nbsp;&nbsp;&nbsp;&nbsp; CS 3810 Principles of Database Systems (Fall 2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Database Assignment 1](https://github.com/AdamSchaible/MSU_Denver/tree/master/CS%203810%20Principles%20of%20Database%20Systems%20(Fall%202019)/Database%20Assignment%201) 
